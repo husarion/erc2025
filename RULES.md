@@ -88,19 +88,19 @@ Technical Handbook is a document that describes the technical details of the Com
 
 ## Dates
 
-2025.02.10 - Announcement of the Competition
-2025.02.24 - Registration opens, first version of Rulebook is published, Community Forum is set up
-2025.03.31 - Registration closes
-2025.04.07 - Qualification results are published
-2025.XX.XX - Technical Handbook is published
-2025.XX.XX - Connectivity Test
-2025.XX.XX - Payload Test
-2025.XX.XX - Challenge Test - First Challenge
-2025.XX.XX - Challenge Test - Second Challenge
-2025.08.26 - Finals - First Challenge
-2025.08.27 - Finals - Second Challenge
-2025.08.28 - Competition Report
-2025.08.31 - Results are published, Award Ceremony
+- 2025.02.10 - Announcement of the Competition
+- 2025.02.24 - Registration opens, first version of Rulebook is published, Community Forum is set up
+- 2025.03.31 - Registration closes
+- 2025.04.07 - Qualification results are published
+- 2025.XX.XX - Technical Handbook is published
+- 2025.XX.XX - Connectivity Test
+- 2025.XX.XX - Payload Test
+- 2025.XX.XX - Challenge Test - First Challenge
+- 2025.XX.XX - Challenge Test - Second Challenge
+- 2025.08.26 - Finals - First Challenge
+- 2025.08.27 - Finals - Second Challenge
+- 2025.08.28 - Competition Report
+- 2025.08.31 - Results are published, Award Ceremony
 
 XX - means it's unknown or not announced at present time
 
@@ -198,17 +198,17 @@ Team Proposal scoring overview:
 | Wildcard             | Anything else that the Team wants to share           | 10             |
 | **Sum**              | **Sum of the categories**                            | **50**         |
 
-List of skills - list of skills that Team members have. This is not limited to the technical skills. Soft skills are also important. Whenever possible should also include the level of proficiency and a number of members with a given skill. This list should also mention any skills that Team finds necessary/helpful but does **not** currently have - with a plan on how to acquire them. If you have any mentors from the university or the industry - please share what are their specialities and how they are willing to help you. Some skills that you may want to include were already mentioned in the Remote Competition announcement - but you're free to include any other that you find relevant. The most important from our point of view is the ability to use ROS (Robot Operating System) and Husarnet - our product that you'll be using to connect to the platforms.
+**List of skills** - list of skills that Team members have. This is not limited to the technical skills. Soft skills are also important. Whenever possible should also include the level of proficiency and a number of members with a given skill. This list should also mention any skills that Team finds necessary/helpful but does **not** currently have - with a plan on how to acquire them. If you have any mentors from the university or the industry - please share what are their specialities and how they are willing to help you. Some skills that you may want to include were already mentioned in the Remote Competition announcement - but you're free to include any other that you find relevant. The most important from our point of view is the ability to use ROS (Robot Operating System) and Husarnet - our product that you'll be using to connect to the platforms.
 
-Team experience - list of previous competitions and projects that the Team members participated in. This is not limited to the robotics competitions. Any experience that you find relevant should be included. This may also include the experience in the specific technologies that you plan to use during the Competition.
+**Team experience** - list of previous competitions and projects that the Team members participated in. This is not limited to the robotics competitions. Any experience that you find relevant should be included. This may also include the experience in the specific technologies that you plan to use during the Competition.
 
-Team composition/structure and organization methods - If you have any organization structure figured out yet - please include it. This may include the roles, responsibilities, communication methods, etc. This is not limited to the technical roles - any role that you find necessary should be included. If you already figured out any methodologies that you want to use - please include them.
+**Team composition/structure and organization methods** - If you have any organization structure figured out yet - please include it. This may include the roles, responsibilities, communication methods, etc. This is not limited to the technical roles - any role that you find necessary should be included. If you already figured out any methodologies that you want to use - please include them.
 
-Team plan - high-level plan for the Competition. At this point we do not require any specifics but we do want you to have at least a general overview of the oncoming challenges. If you have a very specific plan for one of the Tasks - you can include it even if your plan for other is still very vague. Descriptions for any extra axis like the marketing, documentation, infrastructure during the Tasks and during development,... - will be scored too. Having people already assigned to each of the axis already will be a plus.
+**Team plan** - high-level plan for the Competition. At this point we do not require any specifics but we do want you to have at least a general overview of the oncoming challenges. If you have a very specific plan for one of the Tasks - you can include it even if your plan for other is still very vague. Descriptions for any extra axis like the marketing, documentation, infrastructure during the Tasks and during development,... - will be scored too. Having people already assigned to each of the axis already will be a plus.
 
-Team equipment - list of equipment and infrastructure that the Team has. This is not limited to the robotics equipment. Any equipment that you find relevant should be included. This may also include the equipment that you plan to use during the Competition. Have in mind that you'll need a decent Internet connection to Poland during the Tasks and some computing power during the preparations. If you have any equipment that you plan to use but do not currently have - please share what are your plans on acquiring/renting it. If you have sponsors for the equipment - please share what are they providing you with.
+**Team equipment** - list of equipment and infrastructure that the Team has. This is not limited to the robotics equipment. Any equipment that you find relevant should be included. This may also include the equipment that you plan to use during the Competition. Have in mind that you'll need a decent Internet connection to Poland during the Tasks and some computing power during the preparations. If you have any equipment that you plan to use but do not currently have - please share what are your plans on acquiring/renting it. If you have sponsors for the equipment - please share what are they providing you with.
 
-Wildcard - you're free to write any piece of information that you think would be valuable to the Judges during the scoring od Team's Proposal. This may include the information that you think is missing from the other categories at the current time. Such pieces of information may be converted into separate categories in the next revisions of the Rulebook. Wildcard points can be negative (i.e. if the document is slightly too long, or if the information is not relevant).
+**Wildcard** - you're free to write any piece of information that you think would be valuable to the Judges during the scoring od Team's Proposal. This may include the information that you think is missing from the other categories at the current time. Such pieces of information may be converted into separate categories in the next revisions of the Rulebook. Wildcard points can be negative (i.e. if the document is slightly too long, or if the information is not relevant).
 
 Categories listed above do not need to be explicitly specified in the document - you can form the document as you wish, as long as required pieces of information are to be found in the document.
 
@@ -276,49 +276,49 @@ Challenges will be held on the Marsyard, a special outdoor environment designed 
 
 ## The story
 
-TODO Fill in the story
+- TODO Fill in the story
 
 ### Challenge 1 - Exploration Task - Investigate the crash site
 
-TODO Describe the physical setup - physical objects available on the field, like the AR tags, tools and features
-TODO Describe the start and stop locations
-TODO Vaguely describe the robot/platform setup
-TODO Describe the deliverable - a PDF report, format and so on
-TODO Mention the use of LLMs and other machine learning features (specify external API usage)
-TODO Add a scoring table
+- TODO Describe the physical setup - physical objects available on the field, like the AR tags, tools and features
+- TODO Describe the start and stop locations
+- TODO Vaguely describe the robot/platform setup
+- TODO Describe the deliverable - a PDF report, format and so on
+- TODO Mention the use of LLMs and other machine learning features (specify external API usage)
+- TODO Add a scoring table
 
 ### Challenge 2 - Infrastructure - Navigate around the hazardous waste
 
-TODO Create a shared scoring table for each of the sub-tasks
-TODO Describe a start and stop locations
+- TODO Create a shared scoring table for each of the sub-tasks
+- TODO Describe a start and stop locations
 
 #### Sub-task 1 - Airlock
 
-TODO Prepare a sub-task scoring table
-TODO Describe the physical setup - gates, pressure plates, a tent and so on
-TODO Describe the logical setup - connectivity, what to do in order to get a full score
-TODO Describe the "plan B" and points for that
+- TODO Prepare a sub-task scoring table
+- TODO Describe the physical setup - gates, pressure plates, a tent and so on
+- TODO Describe the logical setup - connectivity, what to do in order to get a full score
+- TODO Describe the "plan B" and points for that
 
 #### Sub-task 2 - Equipment panel
 
-TODO Describe the physical setup - equipment panel, pressure plates and so on
-TODO Describe the logical setup - how to approach the task
-TODO Mention a backup password
-TODO Describe the requirements for the participation - expected firmware
-TODO Mention a timer element in the task
-TODO Prepare a sub-task scoring table
+- TODO Describe the physical setup - equipment panel, pressure plates and so on
+- TODO Describe the logical setup - how to approach the task
+- TODO Mention a backup password
+- TODO Describe the requirements for the participation - expected firmware
+- TODO Mention a timer element in the task
+- TODO Prepare a sub-task scoring table
 
 #### Sub-task 3 - Reactor
 
-TODO Describe the physical setup - panel
-TODO Describe the logical setup - returned data, API interaction scheme
-TODO Prepare a sub-task scoring table
+- TODO Describe the physical setup - panel
+- TODO Describe the logical setup - returned data, API interaction scheme
+- TODO Prepare a sub-task scoring table
 
 #### Sub-task 4 - Navigating the site
 
-TODO Describe the physical setup - BT LE tags
-TODO Describe the goal/deliverable - a location
-TODO Prepare a sub-task scoring table
+- TODO Describe the physical setup - BT LE tags
+- TODO Describe the goal/deliverable - a location
+- TODO Prepare a sub-task scoring table
 
 ## Other activities
 
@@ -346,13 +346,13 @@ Social Excellence points are a living rank of current Teams' activity on a given
 | Community outreach   | 10             |
 | **Sum**              | **100**        |
 
-Community Forum - points will be awarded for positive interactions on the Community Forum. This may include answering questions, providing feedback, sharing knowledge, etc. Points may be awarded for the number of interactions, the quality of interactions, the helpfulness of interactions, etc. Sharing possible solutions/algorithms/code or fixing issues in materials from other Teams would be considered the highest form of interaction. Points may be deducted for negative interactions - like but not limited to: asking the same questions multiple times, not looking for the answer in the materials provided, providing misleading information, providing unrelated discussions, etc.
+**Community Forum** - points will be awarded for positive interactions on the Community Forum. This may include answering questions, providing feedback, sharing knowledge, etc. Points may be awarded for the number of interactions, the quality of interactions, the helpfulness of interactions, etc. Sharing possible solutions/algorithms/code or fixing issues in materials from other Teams would be considered the highest form of interaction. Points may be deducted for negative interactions - like but not limited to: asking the same questions multiple times, not looking for the answer in the materials provided, providing misleading information, providing unrelated discussions, etc.
 
-Social Media/marketing - Teams are expected to have some social media presence. Publicly sharing progress (both the technical one and organizational one) is encouraged. Points will be awarded for the number of posts, the quality of posts, the reach of posts, etc. Points may be deducted for negative posts. Social Media platforms are not limited to any specific ones - but the most common ones are expected to be used. In order to get the points for the Social Media - the posts should be publicly available and scored profiles must be known to Organizers (i.e. provided in a Registration Form or in a Team-specific post on Community Forum). Writing a post on a Community Forum is not considered a Social Media post. Social Media presence is not required to be infinitely professional and pristine - it's meant to be engaging to the desired audiences. Things like the number of interactions and regularity will be taken into the account too.
+**Social Media/marketing** - Teams are expected to have some social media presence. Publicly sharing progress (both the technical one and organizational one) is encouraged. Points will be awarded for the number of posts, the quality of posts, the reach of posts, etc. Points may be deducted for negative posts. Social Media platforms are not limited to any specific ones - but the most common ones are expected to be used. In order to get the points for the Social Media - the posts should be publicly available and scored profiles must be known to Organizers (i.e. provided in a Registration Form or in a Team-specific post on Community Forum). Writing a post on a Community Forum is not considered a Social Media post. Social Media presence is not required to be infinitely professional and pristine - it's meant to be engaging to the desired audiences. Things like the number of interactions and regularity will be taken into the account too.
 
-Sponsor interactions - Teams are not required to have any sponsors but are encouraged to have some. Points will be awarded for successful sponsorships/mentorships and for seeking sponsors/mentors. In order to qualify for the points - the sponsor/mentor must be known to Organizers - ideally listed on a Team-specific post on the Community Forum (if possible) or sent in a direct communication with Organizers.
+**Sponsor interactions** - Teams are not required to have any sponsors but are encouraged to have some. Points will be awarded for successful sponsorships/mentorships and for seeking sponsors/mentors. In order to qualify for the points - the sponsor/mentor must be known to Organizers - ideally listed on a Team-specific post on the Community Forum (if possible) or sent in a direct communication with Organizers.
 
-Community outreach - points will be awarded for the Team's activity with the local community outside of the Competition. This may include but is not limited to: organizing workshops, presentations, visiting schools, hackerspaces and so on. In order to qualify for the points - the activity must be known to Organizers - ideally listed on social media, a Team-specific post on the Community Forum (if possible) or sent in a direct communication with Organizers.
+**Community outreach** - points will be awarded for the Team's activity with the local community outside of the Competition. This may include but is not limited to: organizing workshops, presentations, visiting schools, hackerspaces and so on. In order to qualify for the points - the activity must be known to Organizers - ideally listed on social media, a Team-specific post on the Community Forum (if possible) or sent in a direct communication with Organizers.
 
 ### Jury points
 
