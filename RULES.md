@@ -145,6 +145,8 @@ Teams should be able to specify specific people responsible for typical roles, l
 
 Size and structure of the Teams can change during the Competition. Teams should be able to provide a list of members and their roles at any time during the Competition. Single member can have multiple roles.
 
+Teams can compete in both Formulas but it's generally not advised due to the sheer volume of work. Teams that compete in both Formulas are subject to the same rules and limitations respective each of the formulas as the Teams that compete in a single formula.
+
 ## Registration
 
 Teams are subject to Registration in order to be considered for the Competition. Registration link is published on the official website. Registration is open for a limited time. The exact dates are specified in the Dates section. Registration Form specifies the requirements for the Registration, including but not limited to the GDPR forms.
@@ -204,7 +206,7 @@ Team Proposal scoring overview:
 
 **Team composition/structure and organization methods** - If you have any organization structure figured out yet - please include it. This may include the roles, responsibilities, communication methods, etc. This is not limited to the technical roles - any role that you find necessary should be included. If you already figured out any methodologies that you want to use - please include them.
 
-**Team plan** - high-level plan for the Competition. At this point we do not require any specifics but we do want you to have at least a general overview of the oncoming challenges. If you have a very specific plan for one of the Tasks - you can include it even if your plan for other is still very vague. Descriptions for any extra axis like the marketing, documentation, infrastructure during the Tasks and during development,... - will be scored too. Having people already assigned to each of the axis already will be a plus.
+**Team plan** - high-level plan for the Competition. At this point we do not require any specifics but we do want you to have at least a general overview of the oncoming challenges. If you have a very specific plan for one of the Tasks - you can include it even if your plan for other is still very vague. Descriptions for any extra axis like the marketing, documentation, infrastructure during the Tasks and during development,... - will be scored too. Having people already assigned to each of the axis already will be a plus. In case a Team is competing in both Remote and On-site formula - please include the plan on how you're going to manage the two Competitions at the same time.
 
 **Team equipment** - list of equipment and infrastructure that the Team has. This is not limited to the robotics equipment. Any equipment that you find relevant should be included. This may also include the equipment that you plan to use during the Competition. Have in mind that you'll need a decent Internet connection to Poland during the Tasks and some computing power during the preparations. If you have any equipment that you plan to use but do not currently have - please share what are your plans on acquiring/renting it. If you have sponsors for the equipment - please share what are they providing you with.
 
