@@ -90,9 +90,9 @@ Technical Handbook is a document that describes the technical details of the Com
 
 - 2025.02.10 - Announcement of the Competition
 - 2025.02.24 - Registration opens, first version of Rulebook is published, Community Forum is set up
-- 2025.03.31 - Registration closes
-- 2025.04.07 - Qualification results are published
-- 2025.XX.XX - Technical Handbook is published
+- 2025.03.24 - Technical Handbook is published - this may be postponed until after the Registration closes
+- 2025.04.07 - Registration closes
+- 2025.04.14 - Qualification results are published
 - 2025.XX.XX - Connectivity Test
 - 2025.XX.XX - Payload Test
 - 2025.XX.XX - Challenge Test - First Challenge
@@ -155,7 +155,7 @@ Teams are subject to Registration in order to be considered for the Competition.
 
 Organizer is the sole entity responsible for scoring the Competition. All disputes regarding the scoring should be addressed to the Organizer.
 
-Competition's scoreboard is a living document that is updated after each scoring session.
+Competition's scoreboard is a living document that is updated after each scoring session. There can be partial points (like half, quarter and so on).
 
 The final score is calculated based on the sum of points from each scoring category. Some categories are Task-based and final after publication (like challenge results), and some are continuous and can be updated at any time (like Social Excellence).
 
@@ -276,51 +276,190 @@ The Challenge Test may be streamed to all the Teams. Stream will most likely hav
 
 Challenges will be held on the Marsyard, a special outdoor environment designed for testing rovers. The Marsyard is a large area with various obstacles and terrains. The Marsyard is not guaranteed to have the same shape or form to one on On-site formula.
 
-## The story
+### The story
 
-- TODO Fill in the story
+Your mission was given a lander with two robots. One large, with a comprehensive set of sensors (Husarion Panther) and one small and nimble for mixed indoor and outdoor applications (Husarion Lynx). The lander is equipped with some computing power too – so you can host your most expensive algorithms there. The mission is to investigate a crash site of a previous expedition and figure out whether you can find a path through the hazardous waste scattered all over the place.
+
+Your first Task is to investigate the crash site using Husarion Panther and provide us with a report of what you’ve found.
+
+Your second Task is to navigate the Husarion Lynx through the Marsyard avoiding hazardous waste. There are a couple of items that will help you with the Task - namely there's an equipment panel in an old habitat, guarded by a still operational airlock. You can use it to obtain the admin password to an old reactor equipped with sensors that'll give you a map of known radioactive materials.
+
+### Shared parts for both Challenges
+
+Detailed description of the environments will be provided in the Technical Handbook. In general the Task will take place on Marsyard - a special outdoor environment designed for testing rovers. The Marsyard is a large area with various obstacles and terrains. The Marsyard is not guaranteed to have the same shape or form to one on On-site formula. The setup may (and most likely will) be different between Challenge 1 and Challenge 2, but Teams must not share any operational data (like - locations of tools) between the Challenges.
+
+During the Competition some Teams will inevitably make some risky moves and flip the robot or even let the robot loose and leave the designated area. In those, and in any case that may be a risk to both the equipment and the environment (including Judges, Volunteers and Spectators) Judges reserve a right to immediately interrupt the Task and take control of the Infrastructure. Exact repercussions will be decided by the Judges on a case-by-case basis, and may result in negative points or even disqualification. Judges may also decide to restore safety in any way they choose and let the Team continue. There will be no extra time granted for such interruptions. We do not want you to be overly cautious - but we do want you to be responsible - that's why will be awarding safety precautions with extra points - especially if nothing bad happens.
+
+Keep in mind that these Challenges are not awarding being the fastest but being the most accurate. You will be given a certain time slot for interacting with the Judges and the environment but during that time you'll most likely be able to try some parts of the Tasks multiple times. We are aware that most of you will be competing from remote locations and we do not want to make it easier in any way for the Teams with a better Internet connection. We will not be compensating for a poor Internet connection quality either. Our goal for all Tasks is to provide challenges that are doable with a top score even with lags and a choppy streams. We do expect you to also take the remoteness into consideration and will be awarding being mindful of that (i.e. by running most of the software locally) as a part of Technical excellence scoring throughout the Competition.
+
+Rules-wise - in case a Team has not finished given Task in a given time slot - the run is interrupted and scored as if it was a complete try. In cases of multiple attempts of allowed parts of the Tasks - scoring will be based on the best attempt. A Team can also end the Task earlier (and possibly be awarded some points for Social Excellence) or attempt any permitted by Rules part of the task again (and possibly have a better run).
+
+Some parts of the scoring are being intentionally vague - this is to allow for the Teams to be creative and to show their skills. We do not want to limit you to a specific set of actions - we want you to show us what you're capable of. We will be awarding creativity and out-of-the-box thinking. Because of that, during the competition Jury will be making a list of ideas, used technologies, found objects etc - and then using it to to gauge what was possible and what was not. Max score for a given category will be then aligned close to the best result. Such lists (or parts of them) may be published after the Competition. This is also one of the reasons why you won't be given your score immediately after the Task - we want to holistically evaluate all the Teams to provide the scores.
+
+Teams must communicate the technical (for the Technical excellence scoring category) and safety features (for the Safety considerations scoring category) for a particular run during the Task in order to get the points for those axes. Teams are encouraged to prepare a short description of the technical/safety features used beforehand. Such descriptions should be no longer than a single A4 page for each of the Challenges and should be provided to the Judges at the beginning of the Task. In case some mechanisms are disabled during the particular runs - such changes must be communicated to the Judges immediately.
 
 ### Challenge 1 - Exploration Task - Investigate the crash site
 
-- TODO Describe the physical setup - physical objects available on the field, like the AR tags, tools and features
-- TODO Describe the start and stop locations
-- TODO Vaguely describe the robot/platform setup
-- TODO Describe the deliverable - a PDF report, format and so on
-- TODO Mention the use of LLMs and other machine learning features (specify external API usage)
-- TODO Add a scoring table
+During the Challenge 1 on the Marsyard there will be AR tags scattered around the field, for you to use as a reference. Use of the tags is not required. There will also be Features - both things that **do** match the setting - like tools, rock formations, possibly other robots, and things that **do not** match the setting - like a piece of paper, a bottle of water, etc.
+
+The goal is to investigate the crash site and provide a Report of what you've found. The Report should contain the information about the crash site, the objects found (including visual evidence like photos), whether they seem out of place and whether they seem to be useful during the remainder of the mission. Number of Features won't be known before the Task. Numbers and locations of Features may change between the Teams.
+
+The report should be human-readable and in a PDF format. The report should have a repeatable part, where each of the identified objects is described with a clear structure (things like - clear locations of photos, descriptions, etc). The report should be as comprehensive as possible. The report should be provided at most 15 minutes after the Task via the method specified by the Jury. Not providing the report in time may result in a zero-score for a Task.
+
+Task can be done in a fully, partially or non-autonomous way. The Team must be able to provide a proof of any level of autonomy (and compliance with other rules) to the Judges during their assigned time slot.
+
+Full autonomy requires no user input during the try. Remote monitoring by the Team during the autonomous run is acceptable. Partial autonomy is when the system requires some input from the user but there are large parts of it there are fully autonomous (i.e. driving and marking objects manually but identifying and generating the report automatically). All other cases are considered non-autonomous.
+
+Multiple attempts are acceptable given the following conditions:
+- no collected data is shared between the runs
+- all tries are within the given time slot
+
+Teams can, at any time resort to using lower level of autonomy, or not using the autonomy at all. Such switch must be communicated to Judges immediately. Lower levels of autonomy will be getting lower scores.
+
+| Level of autonomy used | Challenge scoring multiplier |
+| ---------------------- | ---------------------------- |
+| Fully autonomous       | 100%                         |
+| Partially autonomous   | 75%                          |
+| Non-autonomous         | 50%                          |
+
+Teams can and are encouraged to use the recent advances in machine learning, especially large language models (LLMs) for the Task. The use of external APIs is allowed. The use of LLMs and other machine learning features will be scored. Models running locally will be getting higher scores. Teams can use a mix of local and external models. Any fees for using the external services are the responsibility of the Team.
+
+| Axis                                         | Maximum points |
+| -------------------------------------------- | -------------- |
+| Number of objects correctly identified       | 20             |
+| Quality of visual evidence                   | 20             |
+| Quality of the descriptions                  | 20             |
+| Quality of reported locations                | 20             |
+| Quality of report structure                  | 10             |
+| Quality of report overview and summary       | 10             |
+| Quality of an operator's panel and manual    | 20             |
+| Returning the robot to the starting position | 10             |
+| Technical excellence                         | 60             |
+| Safety considerations                        | 10             |
+| **Sum**                                      | **200**        |
+
+**Technical excellence** - is a metric of the quality of used technical solutions - things like, but not limited to: whether machine learning models are used, how many aids/sensors are used to achieve the task, how reliably the algorithms were, etc.
+
+**Safety considerations** - is a metric of the quality of safety features implemented - things like, but not limited to: whether there were any mechanisms providing auto-shutdown, whether there was a remote-kill switch, whether there were any sanity checks on the sensors and behavior of the robot, etc.
 
 ### Challenge 2 - Infrastructure - Navigate around the hazardous waste
 
-- TODO Create a shared scoring table for each of the sub-tasks
-- TODO Describe a start and stop locations
+Challenge 2 is designed to multiple smaller tasks that contestants can skip or fail (at the cost of points) instead of being a single large project. The Challenge will be divided into sub-tasks that will be scored separately. The Challenge will be scored based on the sum of points from each sub-task. This Challenge is also intended to be fully controlled by humans - no autonomy is required although it's allowed and may be awarded as a part of Technical excellence. All sub-tasks are a part of a single Task and should be completed in a single time slot. Sub-tasks are meant to be executed in order. Changing the order is allowed although it will most likely result in a lower score. Proposed order is: start, through the airlock to the habitat, interaction with the equipment panel, through the airlock out the habitat, to the reactor, through the waste field, to the final location.
+
+Start location will be the same for all the Teams. There will be a safe path from the starting location to the Airlock, the Equipment panel and the Reactor. There will be a Hazardous Waste Field between the Start location and the Final location. There will be at least one safe path through the Hazardous Waste Field. The robot will be equipped with a display allowing Judges to see how close/far to the nearest Hazardous Waste the robot is at all times. There may be a Judge-resettable latch indicating hitting the set proximity threshold.
+
+Some sub-tasks during this Challenge require Teams to provide microcontroller firmware for the equipment. The exact rules for sending such firmware will be provided before the Task. Technical details of such firmware will be specified in Technical handbook. The firmware should be provided by the time specified in the announcement. Teams can choose not to provide the firmware - in such case a firmware may be provided by the Organisers for the entertainment's sake. Teams are not eligible for making any specifications for such Organizer-provided firmware and shall adjust to the APIs and protocols specified in the Technical handbook. Teams should declare whether they will be providing firmwares via a method specified in the announcement. Declaring to provide and not providing a firmware will result in a zero score for the sub-task. Declaring not to provide a firmware and using one provided by the Organizer will result in a partial score for a task (i.e. some categories will not be applicable at all and get a zero points, but some will still be scored). Declaring not to provide a firmware is final and cannot be changed during the Task.
+
+Teams are not allowed to change firmwares during the Task. Firmware can provide multiple modes of operation switched by the Team during the Task. Such switching mechanisms should be well-described and communicated to the Jury before the Task. Every mode switch during the Task should be communicated to Jury immediately.
+
+For any of the firmware-related tasks, Teams are advised to build (or simulate) mockups at their own discretion. Plans and models for the Competition-used ones will be provided at the later time. Have in mind that the specifications found in the Technical handbook take precedence before the plans and models provided by the Organisers.
+
+| Sub-task/category             | Maximum points |
+| ----------------------------- | -------------- |
+| Airlock                       | 50             |
+| Equipment panel               | 50             |
+| Reactor                       | 20             |
+| Navigating the site           | 50             |
+| Overall technical excellence  | 20             |
+| Overall safety considerations | 10             |
+| **Sum**                       | **200**        |
+
+**Overall technical excellence** - is a metric of the quality of used technical solutions - have in mind that, as this is a human-controlled Task, we will also include the quality of technical aids for humans - things like, but not limited to: quality of the remote control interface, use of checklists and notes, means of communication between the Team members during the Task, etc.
+
+**Overall safety considerations** - same as per Challenge 1.
+
+The same requirements for providing Judges with the technical and safety features descriptions apply as in Challenge 1.
 
 #### Sub-task 1 - Airlock
 
-- TODO Prepare a sub-task scoring table
-- TODO Describe the physical setup - gates, pressure plates, a tent and so on
-- TODO Describe the logical setup - connectivity, what to do in order to get a full score
-- TODO Describe the "plan B" and points for that
+Airlock is intended to be used twice - once going into the habitat and once going out the habitat - so both directions will be tested. Exact hardware specifications will be provided in the Technical handbook but the general gist is: there will be two electronically controlled gates, and some sensors near them (i.e. pressure plates, distance sensors, etc). Airlock has to be logically functional - i.e. both gates must not be opened at the same time, the gates must not operate if there's a robot passing them, etc. Airlock can use any communication mechanism the Team sees fits (both with the operator and the robot) - including Husarnet connection. Airlock can also be fully autonomous and base it's operation entirely on it's sensors. Operating each of the gates manually, by the operator will score lower.
+
+In case Team chooses to use any form of communication to and from the Airlock - please coordinate the details with the Organizers - things like WiFi network names, Husarnet addresses and so on may need to be set according to Organizers details in order to function.
+
+The Team may choose not to use the Airlock and either ask the Judges for skipping this sub-task or drive around it. In such cases the Team will get a zero score for the sub-task.
+
+Team can try each of the directions multiple times. The best attempt will be scored.
+
+| Category             | Maximum points                                                                     |
+| -------------------- | ---------------------------------------------------------------------------------- |
+| Entering the habitat | Without any communication - 20, controlled by the robot - 15, operator control - 5 |
+| Exiting the habitat  | Without any communication - 20, controlled by the robot - 15, operator control - 5 |
+| Technical excellence | 10                                                                                 |
+| **Sum**              | **50**                                                                             |
+
+**Technical excellence** - in this case things like: use of the lease amount of sensors, extra safety features, quality of signaling the status of an airlock, etc.
+
+Not providing a firmware for this sub-task will multiply all categories by 50%.
 
 #### Sub-task 2 - Equipment panel
 
-- TODO Describe the physical setup - equipment panel, pressure plates and so on
-- TODO Describe the logical setup - how to approach the task
-- TODO Mention a backup password
-- TODO Describe the requirements for the participation - expected firmware
-- TODO Mention a timer element in the task
-- TODO Prepare a sub-task scoring table
+Some sort of equipment panel interaction is always a part of any robotics competition. We wanted to include it here too, but traditional way of using a manipulator for it was too risky for the equipment in case of a remote control. This is why, this time you'll not only be controlling the robot but also providing firmware for the panel itself. The exact specifications will be in the Technical Handbook but a general gist is that the panel will have an LED matrix, a couple of servomechanisms with large, contrasting arrows and possibly some pressure plates to be actuated by the robot. In this case the firmware used in the Equipment panel is not allowed to use any communication methods with the operator and the robot - other than ones specified above.
+
+Said microcontroller will be connected to some sort of a control board that will have two signals connected to the rest of the system - namely the "enable line" and an UART tx line. Intended way of operation will be:
+- Team's firmware initialize and is ready to accept signals (signals can be read from the pressure plates or can i.e. utilize an internal timer to continue the sequence)
+- Team's firmware pulls the enable line (high/low - will be specified in the Technical handbook)
+- Control board generates a password
+- Control board sends the password to the Reactor
+- Control board sends the password over UART to the Team's firmware
+- Control board enables the power to panel's output - like the LEDs, servos, etc
+- Control boards starts the timer
+- Team's firmware reads and processes the password
+- Team's firmware uses LEDs, servos, etc to communicate the password to the robot
+- Robot uses it's sensors (i.e. camera) to read the password
+- Team's firmware pulls the enable line back
+- Control board disables the power to the panel's output
+- Control board stops the timer
+- Control board saves the timer value and sends it to the Judges
+- Team's firmware is ready to accept signals again
+- Either robot or operator saves the password to be used in the Reactor
+
+So in essence your task will be to design and implement the most effective visual communication protocol possible, for provided hardware. We will only be timing the "send" part, not the "receive" part - so your robot (or operator's panel) can process the saved stream for as long as you want.
+
+Reactor will be saving a list of the passwords for all the tries - so you'll be scored for the most effective run. Even though your protocol should be at least "somewhat" effective. We plan on passwords being a couple dozen characters long.
+
+We also advise you to implement some checksums, redundancies and sanity checks in your protocol. The only other way for you to check whether the password you have is correct would be to physically travel to the Reactor and checking it there. Teams should also plan for any environmental issues that may occur - like the weather or the lighting conditions. Such conditions may also change between the Teams. Organizers will try to minimize those challenges by placing the panel inside a tent and providing consistent lighting if needed, but some issues are still expected to occur.
+
+Firmware provided by the organizers will neither be super effective nor super safe. This is why the only penalty for not providing a firmware for this sub-task will be a multiplier of 50% for the Technical excellence category, and scores for all other categories will be the same for all Teams not providing a firmware. Firmware provided by the Organizers will be scored alongside the Teams' firmwares.
+
+For the Teams that choose to skip this sub-task, there will be a backup password for the Reactor provided. The backup password will not grant the full access to the Reactor's data in the next sub-task. The backup password will still have to be read using the robot from inside the habitat.
+
+| Category                                    | Maximum points |
+| ------------------------------------------- | -------------- |
+| Effectiveness of communication              | 25             |
+| Number of outputs used in the communication | 15             |
+| Technical excellence                        | 10             |
+| **Sum**                                     | **50**         |
 
 #### Sub-task 3 - Reactor
 
-- TODO Describe the physical setup - panel
-- TODO Describe the logical setup - returned data, API interaction scheme
-- TODO Prepare a sub-task scoring table
+Reactor will be a simple device operated wirelessly and enabled via a pressure plate nearby. Interacting with the Reactor will only be possible while the pressure plate is activated. Reactor will be accepting a password from the previous sub-task and returning data:
+- about the final location (in case of a correct admin password or a backup password)
+- about the hazardous waste (in case of a correct admin password)
+
+Provided data will either be in a form of a list of coordinates or an image of a map. If the Team chooses an image of a map instead of the coordinates - scores for all the tries will assume that team has chosen an image instead of a list. Exact technical details will be specified in the Technical handbook.
+
+| Category                                                    | Maximum points                                             |
+| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| Requesting data from the Reactor using any correct password | 10 points for an image map, 20 points for coordinates list |
+| Technical excellence                                        | 30                                                         |
+| **Sum**                                                     | **50**                                                     |
+
+**Technical excellence** - here means the ability to clearly communicate received data to the operator. This may include things like: generating a map based on the coordinates, plotting the best possible route, plotting the heatmap for alternatives, providing an interface for manually marking the waste, drawing an overlay map based on the live data from robots sensors, etc. Some of the scored traits may be shared with the next sub-task - as a rule of thumb - all the map-related features should be scored here, and operational features should be scored in the next sub-task.
+
+In case the Team chooses to skip the task - the Judges will provide the Team with the desired finish location. The Team will not be provided with the hazardous waste map. The Team will be scored in this sub-task only for the Technical excellence category - as this shares some of the axes with the next sub-task. All the other categories will score zero points.
 
 #### Sub-task 4 - Navigating the site
 
-- TODO Describe the physical setup - BT LE tags
-- TODO Describe the goal/deliverable - a location
-- TODO Prepare a sub-task scoring table
+The final sub-task will be to physically drive the robot to the final location known from the previous sub-task. There will be Ultrawideband tags placed around the Marsyard and the robot will be equipped with a receiver for them. There will be a ROS topic with a distance to the closest tag available. The Judges will provide the Team with a threshold value of said reading that they are expected not to exceed. Exceeding the reading at last once will result in a point-penalty for this sub-task run. Teams must not share any data between the attempts - including the sensors readings in various places. Judges are allowed to change sensor places between the Teams and attempts.
+
+| Category                     | Maximum points |
+| ---------------------------- | -------------- |
+| Reaching the final location  | 10             |
+| Avoiding the hazardous waste | 25             |
+| Technical excellence         | 15             |
+| **Sum**                      | **50**         |
+
+**Technical excellence** - in this case scored axes will include things like: how easy it was to operate the robot, how well all the dangers (i.e. proximity to the hazardous materials, obstacles) and robot's status where communicated to the operator.
 
 ## Other activities
 
