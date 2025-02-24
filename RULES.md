@@ -6,41 +6,39 @@ The European Rover Challenge (ERC) is an integrated programme working towards te
 
 Unless specified otherwise, all rules and guidelines in this document apply only to the Remote Formula.
 
-The main goal for this year's remote Competition is to experiment with types of tasks that are best suited for the remote formula. This means that some difficulties are to be expected and the rules are subject to changes during the Competition. The main goal is to learn from the experience - both as the organizer and competitor.
+The main goal for this year's remote Competition is to experiment with types of tasks that are best suited for the remote formula. This means that some difficulties are to be expected and the rules are subject to changes during the Competition. The main goal is to learn from the experience - both as the Organizer, the Operator and competitor.
 
-## Organizers and use of materials
+## Organizer, Operators and use of materials
 
 [roverchallenge.eu](https://roverchallenge.eu) is the main website for the European Rover Challenge and materials (or links) to materials for both formulas will be published there. Updates may also be sent via the emails provided during registration.
 
-The main Organizer for the remote formula this year is Husarion. This is a change from previous Remote Formulas and also the On-site Formula. Please do not reference any previous Remote documents, rules or materials as they will almost certainly not match the current Competition. Using materials from On-site Formula is allowed but not advised unless specified otherwise.
+The main Operator for the remote formula this year is Husarion. This is a change from previous Remote Formulas and also the On-site Formula. Please do not reference any previous Remote documents, rules or materials as they will almost certainly not match the current Competition. Using materials from On-site Formula is allowed but not advised unless specified otherwise.
 
-Both European Rover Challenge formulas are still owned and coordinated by the European Space Foundation.
+Both European Rover Challenge formulas are still owned and coordinated by the European Space Foundation. European Space Foundation is called the Organizer in this document.
 
 Husarion is a polish company that specializes in industrial robotics platforms. They are known for their Husarion Panther UGV platforms - which is one of the main robots used in the competition. They are also known for their cloud platform - Husarnet - which is used for the competition's connectivity. To know more visit [husarion.com](https://husarion.com). Using support materials from Husarion is allowed and encouraged. Good starting points are Docs, Manuals and Tutorials on their website and their Github profile - [github.com/husarion](https://github.com/husarion).
 
 ## Copyrights, intellectual property and personal data
 
-The Organizer retains all copyrights to Competition materials, including but not limited to the rulebook, technical handbook, scoring system, Task descriptions, and any other materials provided to the Teams. The Teams retain all copyrights to the materials they provide to the Organizer. The Teams grant the Organizer a non-exclusive, worldwide, royalty-free license to use the materials for the purposes of the Competition. The Teams are responsible for ensuring that they have the right to use any materials they provide to the Organizer.
+The Operator retains all copyrights to Competition materials, including but not limited to the Rulebook, Technical handbook, scoring system, Task descriptions, and any other materials provided to the Teams. The Teams retain all copyrights to the materials they provide to the Organizer and the Operator. The Teams grant both the Organizer and the Operator a non-exclusive, worldwide, royalty-free license to use the materials for the purposes of the Competition. The Teams are responsible for ensuring that they have the right to use any materials they provide to the Organizer and the Operator.
 
 Teams may be granted the right to use the ERC logo and other materials for promotional purposes. Please contact the Organizer with a specific request to be granted permission.
 
-Reuse of the Competition materials for other purposes is not allowed without the written consent of the Organizer.
+Reuse of the Competition materials for other purposes is not allowed without the written consent of the Organizer and the Operator.
 
 Copyrights and Trademarks mentioned in the Competition materials are the property of their respective owners.
 
-Team members agree to their personal data, the documentation delivered as well as other promotional materials and visuals being stored and processed in the Organizer's computer systems for the purpose of the ERC programme.
-
-Teams grant permission to the Organizer to use promotional materials and visuals (e.g. photos and videos), as well as any additional photos, videos, portraits, documents, interviews, and other materials resulting from participation in the Challenge (using the name of the participant or not) on all media, in any language, anywhere in the world, in any manner, for advertising and promotional and educational purposes.
+Teams grant permission to both the Organizer and the Operator to use promotional materials and visuals (e.g. photos and videos), as well as any additional photos, videos, portraits, documents, interviews, and other materials resulting from participation in the Challenge (using the name of the participant or not) on all media, in any language, anywhere in the world, in any manner, for advertising and promotional and educational purposes.
 
 Personal data and information about Team members other than their names and surnames will not be published without the prior consent of each Team member.
 
 ## Cancellation of the Competition
 
-Organisers reserve the right to cancel the Competition at any time. The Organisers will make every effort to inform the Teams of the cancellation as soon as possible. The Organisers are not responsible for any damages or losses caused by the cancellation of the Competition.
+Organizer reserve the right to cancel the Competition at any time. The Organizer will make every effort to inform the Teams of the cancellation as soon as possible. Neither the Organizer nor the Operator are responsible for any damages or losses caused by the cancellation of the Competition.
 
 ## Awards
 
-The exact list of Awards is to be specified later. Awards from non-Organizer entities may be allowed but must be accepted by the Organizers. Digital certificates of participation will most likely **not** be Awarded in the Remote Formula this year.
+The exact list of Awards is to be specified later. Awards from non-Organizer entities may be allowed but must be accepted by the Organizer. Digital (PDF) certificates of participation will be Awarded in the Remote Formula this year.
 
 Teams may be eligible for receiving physical Awards. Teams may forfeit the right to receive an Award if they choose so. All customs, legal and fees may be the responsibility of the Team - specifics will be provided in the Award announcement.
 
@@ -48,7 +46,7 @@ Teams may be eligible for receiving physical Awards. Teams may forfeit the right
 
 All the communication, documents, user interfaces and other materials will be in English and should be provided (i.e. by the Teams) in English.
 
-All communication regarding the competition should be done through the official channels. The main channel for communication is the Community Forum. The forum is set up to allow for easy communication between the Teams and the Organizers. The Forum is also used to provide updates, answer questions and provide additional materials. In case there's a justified need to contact the Organizers directly and privately - please use the Community Forum to obtain the contact details.
+All communication regarding the competition should be done through the official channels. The main channel for communication is the Community Forum. The forum is set up to allow for easy communication between the Teams, the Organizer and the Operator. The Forum is also used to provide updates, answer questions and provide additional materials. In case there's a justified need to contact the Organizer or the Operator directly and privately - please use the Community Forum to obtain the contact details.
 
 The Community Forum is located at [erc2025.husarion.com](https://erc2025.husarion.com).
 
@@ -56,13 +54,13 @@ Slack is **not** a valid communication channel for the Remote Formula.
 
 ## Code of conduct
 
-The most important rule is to be excellent to each other. The Competition is meant to be fun and educational. The Organizers will not tolerate any form of harassment, discrimination, or any other form of inappropriate behavior. The Organizers reserve the right to disqualify any team that does not adhere to the code of conduct. Feedback (especially the negative one) should be presented in a professional, constructive way. In case you don't want to share the feedback directly or publicly - please contact the Organisers directly.
+The most important rule is to be excellent to each other. The Competition is meant to be fun and educational. The Organizer will not tolerate any form of harassment, discrimination, or any other form of inappropriate behavior. The Organizer and the Operator reserve the right to disqualify any team that does not adhere to the code of conduct. Feedback (especially the negative one) should be presented in a professional, constructive way. In case you don't want to share the feedback directly or publicly - please contact the Organizer or the Operator directly.
 
-Organisers are not responsible for any content posted on the Community Forum. The Teams are responsible for their own content.
+Neither Organizer nor the Operator are responsible for any content posted on the Community Forum. The Teams are responsible for their own content.
 
 ## Equipment and infrastructure usage
 
-Organizers will provide some infrastructure for the Competition. This includes but it's not limited to the platforms (Husarion Panther and Husarion Lynx), accessories specific for each of the tasks, the Marsyard environment, and the Husarnet connectivity. The Teams will be granted remote access to such infrastructure and are subject to the Fair Use Policy. The Fair Use Policy expects that some wear and tear will occur during the Competition and that the Teams will use the infrastructure in a responsible way. The Teams are responsible for any damage or abnormal wear and tear caused by them to the infrastructure.
+Operator and the Organizer will provide some infrastructure for the Competition. This includes but it's not limited to the platforms (Husarion Panther and Husarion Lynx), accessories specific for each of the tasks, the Marsyard environment, and the Husarnet connectivity. The Teams will be granted remote access to such infrastructure and are subject to the Fair Use Policy. The Fair Use Policy expects that some wear and tear will occur during the Competition and that the Teams will use the infrastructure in a responsible way. The Teams are responsible for any damage or abnormal wear and tear caused by them to the infrastructure.
 
 Any attempts to destroy or damage the infrastructure will result in disqualification. Any attempts to use the infrastructure for purposes other than the Competition will result in disqualification. Any attempts to circumvent the security policies or separation between the Teams will result in disqualification. Any attempts of unauthorized access to the infrastructure of both the Competition and other Teams will result in disqualification.
 
@@ -74,7 +72,7 @@ RFC 2119 keywords are used in this document.
 
 Teams and Competitors are used interchangeably and mean the same thing.
 
-Test Drives are the events where the Teams can test their robots in the Marsyard environment. They are used to familiarize the Teams with the environment, the robots, and the tasks. They are also used to gather feedback from the Teams and the Organizers. Test Drives are scored.
+Test Drives are the events where the Teams can test their robots in the Marsyard environment. They are used to familiarize the Teams with the environment, the robots, and the tasks. They are also used to gather feedback from the Teams and the Operator. Test Drives are scored.
 
 Challenges are the main tasks that the Teams need to complete during the Competition. They are the most valuable scoring categories.
 
@@ -84,7 +82,7 @@ Scoring categories are the individual parts of the Competition that are scored. 
 
 ## Technical Handbook
 
-Technical Handbook is a document that describes the technical details of the Competition. It includes the exact specifications of the robots used for the Competition, the environment, the connectivity, and the tasks. The Technical Handbook is a living document and may be updated during the Competition. Teams are not limited to the information provided in the Technical Handbook and are encouraged to seek knowledge and resources. Technical Handbook is the next in line authoritative source of truth after the Rulebook and Organizers. Any other resources are considered less authoritative.
+Technical Handbook is a document that describes the technical details of the Competition. It includes the exact specifications of the robots used for the Competition, the environment, the connectivity, and the tasks. The Technical Handbook is a living document and may be updated during the Competition. Teams are not limited to the information provided in the Technical Handbook and are encouraged to seek knowledge and resources. Technical Handbook is the next in line authoritative source of truth after the Rulebook and the Organizer and the Operator. Any other resources are considered less authoritative.
 
 ## Dates
 
@@ -110,21 +108,21 @@ Additional Test Drive sessions may be organised during the Competition but are n
 
 Competition will physically take place in Kraków, Poland. Some parts of the Competition will use the same infrastructure as the On-site formula, namely the Marsyard - a special outdoor environment designed for testing rovers.
 
-Competitors are allowed to participate in the Remote Formula from any location of their choice, **except** Kraków, Poland and provided that both they and the Organisers stay within the applicable laws and regulations in both the Teams and Organizer's locations. This includes the laws regarding the transmission of technical data and intellectual property rights.
+Competitors are allowed to participate in the Remote Formula from any location of their choice, **except** Kraków, Poland and provided that both they and the Organiser/Operator stay within the applicable laws and regulations in both the Teams and the Organizer's locations. This includes the laws regarding the transmission of technical data and intellectual property rights.
 
-Any attempts to leverage the physical presence in Kraków during the remote formula will result in disqualification. Using cameras and other sensors (not provided by the organisers) to observe the Marsyard during the competition is also prohibited.
+Any attempts to leverage the physical presence in Kraków during the remote formula will result in disqualification. Using cameras and other sensors (not provided by the Operator) to observe the Marsyard during the competition is also prohibited.
 
-Organisers are not responsible for providing any amenities or infrastructure for the specific Teams during the Competition. Teams are responsible for providing their own infrastructure, including but not limited to the sufficient internet connection, power supply, and safe workspace.
+Neither the Organizer nor the Operator is responsible for providing any amenities or infrastructure for the specific Teams during the Competition. Teams are responsible for providing their own infrastructure, including but not limited to the sufficient internet connection, power supply, and safe workspace.
 
-All the times mentioned in the Competition materials are in the Central European Time (CET) unless specified otherwise. The Teams are responsible for converting the times to their local time zones. The Organizers are not responsible for any discrepancies in the time zones. The Teams are responsible for being ready for the Tasks at the specified times. Competition events will be held during the day at the Organisers time zone. Organisers are allowed to refuse a time slot outside of regular working hours in the Organiser's time zone. Teams are required to be ready at a given time slot - even if the time slot is outside of the regular working hours in the Team's time zone. If, for any (i.e. legal) reason Teams are not able to participate in the Competition during the day in Organiser's time zone - they should inform the Organisers as soon as possible, this may result in a Team not being considered for a given Task.
+All the times mentioned in the Competition materials are in the Central European Time (CET) unless specified otherwise. The Teams are responsible for converting the times to their local time zones. The Operator is not responsible for any discrepancies in the time zones. The Teams are responsible for being ready for the Tasks at the specified times. Competition events will be held during the day at the Operator's time zone. The Operator is allowed to refuse a time slot outside of regular working hours in the Operator's time zone. Teams are required to be ready at a given time slot - even if the time slot is outside of the regular working hours in the Team's time zone. If, for any (i.e. legal) reason Teams are not able to participate in the Competition during the day in Operator's time zone - they should inform the Operator as soon as possible, this may result in a Team not being considered for a given Task.
 
 ## Competition limits
 
 The Competition is limited to 25 Teams. The Tasks have a limited number of slots for Teams. The first Task will be limited to 20 Teams so there will be 5 Teams on a sort of Reserve List by design. This means that those Teams still can participate in the Competition and score points for categories like Social Excellence, Competition Report, etc. but they will not be initially invited for the first Task. They may get chosen for the following Tasks or for the first Task in case i.e. any other Teams resign.
 
-The Organizers reserve the right to change the number of Teams for a specific Task at any time.
+The Operator reserve the right to change the number of Teams for a specific Task at any time.
 
-Each Team will be assigned a time slot for completing the Task. Time slots will vary between the Tasks, but in general do not expect to be assigned more than 1 hour for a Task. The exact time slots will be published before the Task. Teams are expected to be ready for the Task at the beginning of the time slot. Teams that are not ready at the beginning of the time slot may be disqualified from the Task. Not showing up for the Task may result in disqualification from the Task. If you know in advance that you won't be able to make it to the Task - please inform the Organizers as soon as possible - this is the only way to increase your chance of rescheduling to the end of the queue or be eligible for any extra sessions that may be organized.
+Each Team will be assigned a time slot for completing the Task. Time slots will vary between the Tasks, but in general do not expect to be assigned more than 1 hour for a Task. The exact time slots will be published before the Task. Teams are expected to be ready for the Task at the beginning of the time slot. Teams that are not ready at the beginning of the time slot may be disqualified from the Task. Not showing up for the Task may result in disqualification from the Task. If you know in advance that you won't be able to make it to the Task - please inform the Operator as soon as possible - this is the only way to increase your chance of rescheduling to the end of the queue or be eligible for any extra sessions that may be organized.
 
 | Milestone                 | Team number limit |
 | ------------------------- | ----------------- |
@@ -153,7 +151,7 @@ Teams are subject to Registration in order to be considered for the Competition.
 
 ## Scoring
 
-Organizer is the sole entity responsible for scoring the Competition. All disputes regarding the scoring should be addressed to the Organizer.
+The Operator is the sole entity responsible for scoring the Competition. All disputes regarding the scoring should be addressed to the Operator.
 
 Competition's scoreboard is a living document that is updated after each scoring session. There can be partial points (like half, quarter and so on).
 
@@ -184,7 +182,7 @@ Disqualification eliminates a Team from further scoring. Not qualifying for a Ta
 
 ## Team Proposal
 
-Team Proposal is a document submitted by each of the Teams during the Registration. It should contain the basic information about the Team up to the point of registration and a vague plan for the Competition. The Team Proposal is used to qualify the Teams for the Competition. The Team Proposal should be submitted in a PDF format. Team Proposals may get published by the Organizer during or after the Competition. Team Proposals published by the Organizer may contain suggestions and feedback from the Organizers. Team Proposals must not contain any sensitive information. Team Proposals should not contain any personal information other than names and surnames ( listing only the roles is also perfectly acceptable - no names are required). Team Proposals can contain links to external resources - like the video materials, websites, etc - provided that they won't change between the submission of the Registration Form and publication of the initial qualification list.
+Team Proposal is a document submitted by each of the Teams during the Registration. It should contain the basic information about the Team up to the point of registration and a vague plan for the Competition. The Team Proposal is used to qualify the Teams for the Competition. The Team Proposal should be submitted in a PDF format. Team Proposals may get published by the Organizer/Operator during or after the Competition. Team Proposals published by the Organizer/Operator may contain suggestions and feedback from the Jury. Team Proposals must not contain any sensitive information. Team Proposals should not contain any personal information other than names and surnames ( listing only the roles is also perfectly acceptable - no names are required). Team Proposals can contain links to external resources - like the video materials, websites, etc - provided that they won't change between the submission of the Registration Form and publication of the initial qualification list.
 
 Team Proposals should be short and concise. The maximum length of the Team Proposal is 5 A4 pages (not including the pictures, diagrams, and other non-text elements). The font size should be at least 10pt.
 
@@ -218,13 +216,13 @@ Providing a proposal that's too long, malformed or containing false data may res
 
 ## Test Drives
 
-Test Drives are the events happening every couple of weeks during the Competition. They are used to familiarize the Teams with the environment, the robots, and the Tasks. Test Drives are scored. Test Drives are also an opportunity to ask questions and provide feedback to the Organizers.
+Test Drives are the events happening every couple of weeks during the Competition. They are used to familiarize the Teams with the environment, the robots, and the Tasks. Test Drives are scored. Test Drives are also an opportunity to ask questions and provide feedback to the Operator.
 
-During the tests Organizers will be learning too. In case of major issues impacting a limited number of Teams - Organizers may either reschedule the Test Drive, provide an extra session for the affected Teams or compensate the Team with some points for a given Test. In case of major issues impacting all Teams - Organizers may reschedule the Test Drive for all Teams.
+During the tests the Operator will be learning too. In case of major issues impacting a limited number of Teams - Operator may either reschedule the Test Drive, provide an extra session for the affected Teams or compensate the Team with some points for a given Test. In case of major issues impacting all Teams - Operator may reschedule the Test Drive for all Teams.
 
 ### Connectivity Test
 
-This Test Drive is focused on the connectivity between the Teams and the infrastructure. The main goal is to ensure that all Teams are able to connect to the infrastructure and that the Internet connection between the Team and the infrastructure is sufficient. The Teams are expected to connect to the infrastructure and perform basic operations. The Teams are expected to provide feedback on the connectivity and the infrastructure during the Task. There will be no ground infrastructure (specifically - neither the Marsyard nor any AR tags, etc.) available during the Connectivity Test - only the robots and the Husarnet connectivity, so do not expect to run any sophisticated workloads during the Connectivity Test. If you want to test other sensors at your own discretion - please contact the Organisers first - we may provide you with some extra time or resources - but most likely you'll be moved to the end of the queue.
+This Test Drive is focused on the connectivity between the Teams and the infrastructure. The main goal is to ensure that all Teams are able to connect to the infrastructure and that the Internet connection between the Team and the infrastructure is sufficient. The Teams are expected to connect to the infrastructure and perform basic operations. The Teams are expected to provide feedback on the connectivity and the infrastructure during the Task. There will be no ground infrastructure (specifically - neither the Marsyard nor any AR tags, etc.) available during the Connectivity Test - only the robots and the Husarnet connectivity, so do not expect to run any sophisticated workloads during the Connectivity Test. If you want to test other sensors at your own discretion - please contact the Operator first - we may provide you with some extra time or resources - but most likely you'll be moved to the end of the queue.
 
 | Subtask                                                         | Maximum points |
 | --------------------------------------------------------------- | -------------- |
@@ -241,9 +239,9 @@ This Test Drive is focused on the connectivity between the Teams and the infrast
 | Completing all subtasks in the first try                        | 1              |
 | **Sum**                                                         | **20**         |
 
-Free Husarnet account should be enough for most setups. If you need more than that - contact Organisers - we will increase your limit for the duration of the Competition.
+Free Husarnet account should be enough for most setups. If you need more than that - contact Operator - we will increase your limit for the duration of the Competition.
 
-For some of the subtasks you'll be required to provide some sort of proof that you've completed the task. This may be a screenshot, a video, a log file, screen shared on a video call, etc. The exact possibilities will be provided during the Task. Please have in mind that the proof should be provided in a timely manner - if you're not able to provide the proof in a reasonable time - the points may not be awarded. Please also have in mind that the only language that the Organisers are required to understand is English - so please make sure that the content of the screen/logs are in English.
+For some of the subtasks you'll be required to provide some sort of proof that you've completed the task. This may be a screenshot, a video, a log file, screen shared on a video call, etc. The exact possibilities will be provided during the Task. Please have in mind that the proof should be provided in a timely manner - if you're not able to provide the proof in a reasonable time - the points may not be awarded. Please also have in mind that the only language that the Operator is required to understand is English - so please make sure that the content of the screen/logs are in English.
 
 During the test be mindful of other contestants - as most likely multiple Teams will be using robots and bandwidth at the same time (which will not be the case for some other Tasks). You may or may not be notified in advance which robot you'll be using - so be prepared to connect to any of the platforms.
 
@@ -348,11 +346,11 @@ Challenge 2 is designed to multiple smaller tasks that contestants can skip or f
 
 Start location will be the same for all the Teams. There will be a safe path from the starting location to the Airlock, the Equipment panel and the Reactor. There will be a Hazardous Waste Field between the Start location and the Final location. There will be at least one safe path through the Hazardous Waste Field. The robot will be equipped with a display allowing Judges to see how close/far to the nearest Hazardous Waste the robot is at all times. There may be a Judge-resettable latch indicating hitting the set proximity threshold.
 
-Some sub-tasks during this Challenge require Teams to provide microcontroller firmware for the equipment. The exact rules for sending such firmware will be provided before the Task. Technical details of such firmware will be specified in Technical handbook. The firmware should be provided by the time specified in the announcement. Teams can choose not to provide the firmware - in such case a firmware may be provided by the Organisers for the entertainment's sake. Teams are not eligible for making any specifications for such Organizer-provided firmware and shall adjust to the APIs and protocols specified in the Technical handbook. Teams should declare whether they will be providing firmwares via a method specified in the announcement. Declaring to provide and not providing a firmware will result in a zero score for the sub-task. Declaring not to provide a firmware and using one provided by the Organizer will result in a partial score for a task (i.e. some categories will not be applicable at all and get a zero points, but some will still be scored). Declaring not to provide a firmware is final and cannot be changed during the Task.
+Some sub-tasks during this Challenge require Teams to provide microcontroller firmware for the equipment. The exact rules for sending such firmware will be provided before the Task. Technical details of such firmware will be specified in Technical handbook. The firmware should be provided by the time specified in the announcement. Teams can choose not to provide the firmware - in such case a firmware may be provided by the Operator for the entertainment's sake. Teams are not eligible for making any specifications for such Operator-provided firmware and shall adjust to the APIs and protocols specified in the Technical handbook. Teams should declare whether they will be providing firmwares via a method specified in the announcement. Declaring to provide and not providing a firmware will result in a zero score for the sub-task. Declaring not to provide a firmware and using one provided by the Operator will result in a partial score for a task (i.e. some categories will not be applicable at all and get a zero points, but some will still be scored). Declaring not to provide a firmware is final and cannot be changed during the Task.
 
 Teams are not allowed to change firmwares during the Task. Firmware can provide multiple modes of operation switched by the Team during the Task. Such switching mechanisms should be well-described and communicated to the Jury before the Task. Every mode switch during the Task should be communicated to Jury immediately.
 
-For any of the firmware-related tasks, Teams are advised to build (or simulate) mockups at their own discretion. Plans and models for the Competition-used ones will be provided at the later time. Have in mind that the specifications found in the Technical handbook take precedence before the plans and models provided by the Organisers.
+For any of the firmware-related tasks, Teams are advised to build (or simulate) mockups at their own discretion. Plans and models for the Competition-used ones will be provided at the later time. Have in mind that the specifications found in the Technical handbook take precedence before the plans and models provided by the Operator.
 
 | Sub-task/category             | Maximum points |
 | ----------------------------- | -------------- |
@@ -374,7 +372,7 @@ The same requirements for providing Judges with the technical and safety feature
 
 Airlock is intended to be used twice - once going into the habitat and once going out the habitat - so both directions will be tested. Exact hardware specifications will be provided in the Technical handbook but the general gist is: there will be two electronically controlled gates, and some sensors near them (i.e. pressure plates, distance sensors, etc). Airlock has to be logically functional - i.e. both gates must not be opened at the same time, the gates must not operate if there's a robot passing them, etc. Airlock can use any communication mechanism the Team sees fits (both with the operator and the robot) - including Husarnet connection. Airlock can also be fully autonomous and base it's operation entirely on it's sensors. Operating each of the gates manually, by the operator will score lower.
 
-In case Team chooses to use any form of communication to and from the Airlock - please coordinate the details with the Organizers - things like WiFi network names, Husarnet addresses and so on may need to be set according to Organizers details in order to function.
+In case Team chooses to use any form of communication to and from the Airlock - please coordinate the details with the Operator - things like WiFi network names, Husarnet addresses and so on may need to be set according to Operator details in order to function.
 
 The Team may choose not to use the Airlock and either ask the Judges for skipping this sub-task or drive around it. In such cases the Team will get a zero score for the sub-task.
 
@@ -417,9 +415,9 @@ So in essence your task will be to design and implement the most effective visua
 
 Reactor will be saving a list of the passwords for all the tries - so you'll be scored for the most effective run. Even though your protocol should be at least "somewhat" effective. We plan on passwords being a couple dozen characters long.
 
-We also advise you to implement some checksums, redundancies and sanity checks in your protocol. The only other way for you to check whether the password you have is correct would be to physically travel to the Reactor and checking it there. Teams should also plan for any environmental issues that may occur - like the weather or the lighting conditions. Such conditions may also change between the Teams. Organizers will try to minimize those challenges by placing the panel inside a tent and providing consistent lighting if needed, but some issues are still expected to occur.
+We also advise you to implement some checksums, redundancies and sanity checks in your protocol. The only other way for you to check whether the password you have is correct would be to physically travel to the Reactor and checking it there. Teams should also plan for any environmental issues that may occur - like the weather or the lighting conditions. Such conditions may also change between the Teams. Operator will try to minimize those challenges by placing the panel inside a tent and providing consistent lighting if needed, but some issues are still expected to occur.
 
-Firmware provided by the organizers will neither be super effective nor super safe. This is why the only penalty for not providing a firmware for this sub-task will be a multiplier of 50% for the Technical excellence category, and scores for all other categories will be the same for all Teams not providing a firmware. Firmware provided by the Organizers will be scored alongside the Teams' firmwares.
+Firmware provided by the Operator will neither be super effective nor super safe. This is why the only penalty for not providing a firmware for this sub-task will be a multiplier of 50% for the Technical excellence category, and scores for all other categories will be the same for all Teams not providing a firmware. Firmware provided by the Operator will be scored alongside the Teams' firmwares.
 
 For the Teams that choose to skip this sub-task, there will be a backup password for the Reactor provided. The backup password will not grant the full access to the Reactor's data in the next sub-task. The backup password will still have to be read using the robot from inside the habitat.
 
@@ -465,12 +463,12 @@ The final sub-task will be to physically drive the robot to the final location k
 
 ### Competition Report
 
-Competition Report is a document (ideally a PDF file) that should contain the summary of the Competition from the Team's point of view - think of it as an Agile Retrospective for both the Team's performance and the Competition itself. It can also contain verbose feedback for the Organisers. The Competition Report should be submitted at most one day after the Finals. The Competition Report should not contain any sensitive information. The Competition Report must not contain any personal information other than names and surnames. The Competition Report is subject to scoring. The Competition Reports may get published after the Competition. Competition Reports are not meant to be submitted early - it should be as close to the last interaction with Competition as possible and should contain the feedback on the whole Competition. Competition Reports should be reasonably short and concise. The maximum length of the Competition Report is 5 A4 pages (not including the pictures, diagrams, and other non-text elements). The font size should be at least 10pt. Teams are encouraged to do internal retrospectives during the Competition and use the results in the Competition Report. Competition Report can be composed of a set of such smaller retrospective reports.
+Competition Report is a document (ideally a PDF file) that should contain the summary of the Competition from the Team's point of view - think of it as an Agile Retrospective for both the Team's performance and the Competition itself. It can also contain verbose feedback for the Operator. The Competition Report should be submitted at most one day after the Finals. The Competition Report should not contain any sensitive information. The Competition Report must not contain any personal information other than names and surnames. The Competition Report is subject to scoring. The Competition Reports may get published after the Competition. Competition Reports are not meant to be submitted early - it should be as close to the last interaction with Competition as possible and should contain the feedback on the whole Competition. Competition Reports should be reasonably short and concise. The maximum length of the Competition Report is 5 A4 pages (not including the pictures, diagrams, and other non-text elements). The font size should be at least 10pt. Teams are encouraged to do internal retrospectives during the Competition and use the results in the Competition Report. Competition Report can be composed of a set of such smaller retrospective reports.
 
 | Area                   | Maximum points |
 | ---------------------- | -------------- |
-| Team performance       | 40             |
-| Organisers performance | 40             |
+| Team's performance     | 40             |
+| Operator's performance | 40             |
 | **Sum**                | **80**         |
 
 Points will be awarded based on the number of axes covered, the quality of the feedback (i.e. whether the point can be easily understood), the actionability of the feedback, etc. Feedback should contain both the negative and the positive points. For the sake of proving the number of axes considered, feedback can include neutral points. Points will not be deducted for any given point.
@@ -489,21 +487,21 @@ Social Excellence points are a living rank of current Teams' activity on a given
 
 **Community Forum** - points will be awarded for positive interactions on the Community Forum. This may include answering questions, providing feedback, sharing knowledge, etc. Points may be awarded for the number of interactions, the quality of interactions, the helpfulness of interactions, etc. Sharing possible solutions/algorithms/code or fixing issues in materials from other Teams would be considered the highest form of interaction. Points may be deducted for negative interactions - like but not limited to: asking the same questions multiple times, not looking for the answer in the materials provided, providing misleading information, providing unrelated discussions, etc.
 
-**Social Media/marketing** - Teams are expected to have some social media presence. Publicly sharing progress (both the technical one and organizational one) is encouraged. Points will be awarded for the number of posts, the quality of posts, the reach of posts, etc. Points may be deducted for negative posts. Social Media platforms are not limited to any specific ones - but the most common ones are expected to be used. In order to get the points for the Social Media - the posts should be publicly available and scored profiles must be known to Organizers (i.e. provided in a Registration Form or in a Team-specific post on Community Forum). Writing a post on a Community Forum is not considered a Social Media post. Social Media presence is not required to be infinitely professional and pristine - it's meant to be engaging to the desired audiences. Things like the number of interactions and regularity will be taken into the account too.
+**Social Media/marketing** - Teams are expected to have some social media presence. Publicly sharing progress (both the technical one and organizational one) is encouraged. Points will be awarded for the number of posts, the quality of posts, the reach of posts, etc. Points may be deducted for negative posts. Social Media platforms are not limited to any specific ones - but the most common ones are expected to be used. In order to get the points for the Social Media - the posts should be publicly available and scored profiles must be known to the Operator (i.e. provided in a Registration Form or in a Team-specific post on Community Forum). Writing a post on a Community Forum is not considered a Social Media post. Social Media presence is not required to be infinitely professional and pristine - it's meant to be engaging to the desired audiences. Things like the number of interactions and regularity will be taken into the account too.
 
-**Sponsor interactions** - Teams are not required to have any sponsors but are encouraged to have some. Points will be awarded for successful sponsorships/mentorships and for seeking sponsors/mentors. In order to qualify for the points - the sponsor/mentor must be known to Organizers - ideally listed on a Team-specific post on the Community Forum (if possible) or sent in a direct communication with Organizers.
+**Sponsor interactions** - Teams are not required to have any sponsors but are encouraged to have some. Points will be awarded for successful sponsorships/mentorships and for seeking sponsors/mentors. In order to qualify for the points - the sponsor/mentor must be known to the Operator - ideally listed on a Team-specific post on the Community Forum (if possible) or sent in a direct communication with the Operator.
 
-**Community outreach** - points will be awarded for the Team's activity with the local community outside of the Competition. This may include but is not limited to: organizing workshops, presentations, visiting schools, hackerspaces and so on. In order to qualify for the points - the activity must be known to Organizers - ideally listed on social media, a Team-specific post on the Community Forum (if possible) or sent in a direct communication with Organizers.
+**Community outreach** - points will be awarded for the Team's activity with the local community outside of the Competition. This may include but is not limited to: organizing workshops, presentations, visiting schools, hackerspaces and so on. In order to qualify for the points - the activity must be known to the Operator - ideally listed on social media, a Team-specific post on the Community Forum (if possible) or sent in a direct communication with the Operator.
 
 ### Jury points
 
-Organizers are entitled to grant points to the Teams at their own discretion at any point in time. The Jury points are not final and may get updated at any time. The Jury points are to be used only in case of extraordinary situations. The Jury points are not limited to the technical aspects of the Competition. Each Jury points increase or decrease should have an explanation provided by the Organizers. The Jury points are not limited to the Competition itself - they may also be granted for the Team's behavior outside of the Competition. Jury points can be negative. Negative points are to be used in case of the Team's violation of the Rules, fair play or Social Excellence that are not covered by the disqualification.
+Organizer is entitled to grant points to the Teams at their own discretion at any point in time. The Jury points are not final and may get updated at any time. The Jury points are to be used only in case of extraordinary situations. The Jury points are not limited to the technical aspects of the Competition. Each Jury points increase or decrease should have an explanation provided by the Operator. The Jury points are not limited to the Competition itself - they may also be granted for the Team's behavior outside of the Competition. Jury points can be negative. Negative points are to be used in case of the Team's violation of the Rules, fair play or Social Excellence that are not covered by the disqualification.
 
 ## Award ceremony and final scores
 
-Award Ceremony will be held together with the On-site formula. In-person participation is not required. In-person participation requires coordination with the Organisers. The number of seats during the Ceremony is limited.
+Award Ceremony will be held together with the On-site formula. In-person participation is not required. In-person participation requires coordination with the Organizer. The number of seats during the Ceremony is limited.
 
-Final scores will be published online on the day of the Ceremony. The final scores are not negotiable after the Ceremony. Feedback about the final scoring can be provided to the Organizers during the first two weeks after the Ceremony and may be considered for the next year's Competition.
+Final scores will be published online on the day of the Ceremony. The final scores are not negotiable after the Ceremony. Feedback about the final scoring can be provided to the Operator during the first two weeks after the Ceremony and may be considered for the next year's Competition.
 
 ## Final words
 
