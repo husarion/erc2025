@@ -70,9 +70,9 @@ Detailed equipment description will be provided in the Technical Handbook.
 
 RFC 2119 keywords are used in this document.
 
-Teams and Competitors are used interchangeably and mean the same thing.
+`Teams`, `Competitors` and `Contestants` are used interchangeably and mean the same thing.
 
-Test Drives are the events where the Teams can test their robots in the Marsyard environment. They are used to familiarize the Teams with the environment, the robots, and the tasks. They are also used to gather feedback from the Teams and the Operator. Test Drives are scored.
+Test Drives are the events where the Teams can test their skills in the Marsyard environment. They are used to familiarize the Teams with the environment, the robots, and the tasks. They are also used to gather feedback from the Teams and the Operator. Test Drives are scored.
 
 Challenges are the main tasks that the Teams need to complete during the Competition. They are the most valuable scoring categories.
 
@@ -86,21 +86,28 @@ Technical Handbook is a document that describes the technical details of the Com
 
 ## Dates
 
+### Past
 - 2025.02.10 - Announcement of the Competition
 - 2025.02.24 - Registration opens, first version of Rulebook is published, Community Forum is set up
-- 2025.03.24 - Technical Handbook is published - this may be postponed until after the Registration closes
+- 2025.03.24 - Technical Handbook for Challenge 1 is published
+
+### Upcoming
+
+> [!NOTE]
+> Upcoming dates are still subject to change. They're published here as a ballpark estimate.
+
+- 2025.03.31 - Technical Handbook for Challenge 2 is published
 - 2025.04.07 - Registration closes
 - 2025.04.14 - Qualification results are published
-- 2025.XX.XX - Connectivity Test
-- 2025.XX.XX - Payload Test
-- 2025.XX.XX - Challenge Test - First Challenge
-- 2025.XX.XX - Challenge Test - Second Challenge
+- 2025.06.03 - Connectivity Test
+- 2025.07.01 - Payload Test - Day 1
+- 2025.07.02 - Payload Test - Day 2
+- 2025.08.05 - Challenge Test - First Challenge
+- 2025.08.06 - Challenge Test - Second Challenge
 - 2025.08.26 - Finals - First Challenge
 - 2025.08.27 - Finals - Second Challenge
-- 2025.08.28 - Competition Report
+- 2025.08.28 - Competition Report due date
 - 2025.08.31 - Results are published, Award Ceremony
-
-XX - means it's unknown or not announced at present time
 
 Additional Test Drive sessions may be organised during the Competition but are not guaranteed.
 
