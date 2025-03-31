@@ -1,5 +1,7 @@
 # European Rover Challenge 2025 - Remote Formula
 
+![Banner](assets/banner_registration_open.jpg)
+
 This is a repository of information for **Remote Formula** (only) of the *European Rover Challenge 2025*.
 
 > [!TIP]
