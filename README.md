@@ -1,11 +1,11 @@
 # European Rover Challenge 2025 - Remote Formula
 
-![Banner](assets/banner_registration_open.jpg)
+![Banner](assets/banner_empty.jpg)
 
 This is a repository of information for **Remote Formula** (only) of the *European Rover Challenge 2025*.
 
 > [!TIP]
-> Registration is now OPEN!
+> Registration is now CLOSED! Results will be announced next week.
 
 - 🌍 [Official webpage](https://roverchallenge.eu)
 - ✍️ [Registration](https://forms.gle/CShR9kNiHTriTsrs6)
