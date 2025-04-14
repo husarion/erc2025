@@ -4,8 +4,10 @@
 
 This is a repository of information for **Remote Formula** (only) of the *European Rover Challenge 2025*.
 
-> [!TIP]
-> Registration is now CLOSED! Results will be announced next week.
+> [!IMPORTANT]
+> Qualification results are IN! Check the [Qualification results](phase_1/qualification_results.md) page for your scores!
+>
+> Congratulation to all the Teams!
 
 - 🌍 [Official webpage](https://roverchallenge.eu)
 - ✍️ [Registration](https://forms.gle/CShR9kNiHTriTsrs6)
