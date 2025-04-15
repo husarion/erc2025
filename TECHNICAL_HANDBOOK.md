@@ -270,7 +270,7 @@ For some of the tasks Competitors will be expected to write firmware for microco
 
 Such hardware platform was chosen partially because of Husarnet - the VPN platform used for connectivity to the robots - as right now the only microcontroller family supported is ESP32. Despite that tasks are designed in a way that such feature is not required for the successful completion of any of them - it's just an option to use if one wants to.
 
-> ![TIP]
+> [!TIP]
 > Even tough this is a remote competition we do encourage to source some hardware (not necessarily the same board, but anything with the right microcontroller) and building some sort of local test bed for the development. As most of you probably won't have access to our robots locally - those test beds do not need to be huge contraptions *actually* doing i.e. the airlock duties - they can be simple boards, with switches, buttons, LEDs, etc - that will allow you to test the firmware locally.
 >
 > Obviously using a fully software based tests is also encouraged - as this is one of the best industry practices - but having a hardware test bed is a solution that's more familiar to more people and may provide an easier learning curve.
