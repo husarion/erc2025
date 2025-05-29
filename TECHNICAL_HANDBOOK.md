@@ -72,18 +72,18 @@ Competitors MAY use any number of machines to provide their part of the infrastr
 
 ### On-site computing
 
-> [!NOTE]
-> At the current time shape and form of the on-site computing infrastructure is undetermined. Goal is to provide some SSH-able machines with ROS 2 and some other tools installed that may be useful during the Competition, but at a current time Competitors MUST plan for such part of the infrastructure both being and not being available and have alternative workflows suitable for both cases.
+There will be On-site computing infrastructure available to the Competitors during the Competition. The intention of this infrastructure is to provide a way of running any data-heavy workloads that may be required during the Competition, especially for the Challenges.
+
+There will be 5 physical machines, running a hypervisor with multiple virtual machines. Each Team will be assigned a single virtual machine with a fair share of the host's resources (CPU, RAM, disk and networking). This compute will be unavailable during the Connectivity Test, but it will be available during the Payload Test and so on. Disk space will be limited to roughly 128GB per Team. CPU will be `Core i7 1360P` (we will start with a single P-core per Team and increase to two and three for the following events). RAM will be 32GB (and we will start with 8GB per Team and increase to 16GB and 24GB for the following events). Networking will be limited to 1Gbps, with a fair share of the host's resources. We do **not** expect any high-performance GPU access to be available during the Competition.
+
+Contents of those Virtual Machines will be up to a Team to decide and will not be reset between the Challenges. Virtual Machines may be deleted by the Operator after not qualifying for the next Challenge.
+
+Competitors MUST NOT rely on any specific tools being present and SHOULD be prepared to use their own tools.
 
 > [!IMPORTANT]
 > Competitors will not only have a Husarnet access to the machine and the rest of the infrastructure, but there will also be available a direct, IPv4 link between the On-site computing node and any nodes on the Robots themself. Intention here is to enable a reasonable way of running unoptimized/compute-heavy workloads even if the networking solutions between the Robot and the Competitors are not advantageous.
 
-Competitors MUST NOT rely on any specific tools being present and SHOULD be prepared to use their own tools. Competitors SHOULD be prepared to be given a non-clean machine for such purposes and have enough knowledge to remove any remains of the previous Competitors. Competitors MUST clean the machine before the end of their assigned time slot.
-
-Competitors SHOULD have their workloads packaged in either Docker containers or [Snap](https://en.wikipedia.org/wiki/Snap_(software)) and distribute their workloads in a way that's able to be downloaded in reasonable time during the assigned time slot - as there most likely won't be any option to pre-setup this part of the infrastructure beforehand. Competitors will be ones responsible for the whole installation and removal process. Competitors MAY use any other packaging software, provided that they provide a clear way of removing such packages together with all the required dependencies. Competitors SHOULD be prepared to multi-task if possible, i.e. one person can be installing the workloads on the On-site computing, while the other person is doing any other available part of the Task. Competitors MAY be using multiple machines on their side during the Competition.
-
-> [!WARNING]
-> Competitors MUST plan for any data leaks between the Competitors during the Competition - especially using the on-site computing. Competitors SHOULD use any available tools to prevent such leaks. Competitors MAY consider Judges in their security processes, provided that their responsibilities do not exceed the time slot assigned to the given activity. I.e. Judges may be asked to format the machine manually, but should be given a reasonable amount of time for doing so - which may not be a good use of the Competitor's time slot.
+Competitors MAY be using multiple machines on their side during the Competition.
 
 ## Team proposal
 

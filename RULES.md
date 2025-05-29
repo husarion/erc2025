@@ -6,7 +6,7 @@ The European Rover Challenge (ERC) is an integrated programme working towards te
 
 Unless specified otherwise, all rules and guidelines in this document apply only to the Remote Formula.
 
-The main goal for this year's remote Competition is to experiment with types of tasks that are best suited for the remote formula. This means that some difficulties are to be expected and the rules are subject to changes during the Competition. The main goal is to learn from the experience - both as the Organizer, the Operator and competitor.
+The main goal for this year's remote Competition is to experiment with types of tasks that are best suited for the remote formula. This means that some difficulties are to be expected and the rules are subject to changes during the Competition. The main goal is to learn from the experience - both as the Organizer, the Operator and Competitor.
 
 ## Organizer, Operators and use of materials
 
@@ -90,15 +90,15 @@ Technical Handbook is a document that describes the technical details of the Com
 - 2025.02.10 - Announcement of the Competition
 - 2025.02.24 - Registration opens, first version of Rulebook is published, Community Forum is set up
 - 2025.03.24 - Technical Handbook for Challenge 1 is published
+- 2025.03.31 - Technical Handbook for Challenge 2 is published
+- 2025.04.07 - Registration closes
+- 2025.04.14 - Qualification results are published
 
 ### Upcoming
 
 > [!NOTE]
 > Upcoming dates are still subject to change. They're published here as a ballpark estimate.
 
-- 2025.03.31 - Technical Handbook for Challenge 2 is published
-- 2025.04.07 - Registration closes
-- 2025.04.14 - Qualification results are published
 - 2025.06.03 - Connectivity Test
 - 2025.07.01 - Payload Test - Day 1
 - 2025.07.02 - Payload Test - Day 2
