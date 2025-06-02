@@ -173,18 +173,18 @@ Teams can choose to skip Task and still participate in the general Scoring. Team
 Disqualification eliminates a Team from further scoring. Not qualifying for a Task does not disqualify a Team from further scoring (i.e. Team can still gather points for Social Excellence, Competition Report, etc.).
 
 
-| Category           | Description                                            | Maximum points |
-| ------------------ | ------------------------------------------------------ | -------------- |
-| Team Proposal      | Points for the Team Proposal                           | 50             |
-| Connectivity Test  | Points for passing the Connectivity Test               | 20             |
-| Payload Test       | Points for passing the Payload Test                    | 50             |
-| Challenge Test 1   | Points for passing the Challenge Test 1                | 100            |
-| Challenge Test 2   | Points for passing the Challenge Test 2                | 100            |
-| Challenge 1        | Points for completing the Challenge 1                  | 200            |
-| Challenge 2        | Points for completing the Challenge 2                  | 200            |
-| Competition Report | Points for the Competition Report                      | 80             |
-| Social Excellence  | Points for active participation in the Community Forum | 100            |
-| Jury               | Points from the Jury                                   | 100            |
+| Category           | Description                                            | Maximum points | Competition phase |
+| ------------------ | ------------------------------------------------------ | -------------- | ----------------- |
+| Team Proposal      | Points for the Team Proposal                           | 50             | Phase 1           |
+| Connectivity Test  | Points for passing the Connectivity Test               | 20             | Phase 2           |
+| Payload Test       | Points for passing the Payload Test                    | 50             | Phase 3           |
+| Challenge Test 1   | Points for passing the Challenge Test 1                | 100            | Phase 4           |
+| Challenge Test 2   | Points for passing the Challenge Test 2                | 100            | Phase 4           |
+| Challenge 1        | Points for completing the Challenge 1                  | 200            | Phase 5           |
+| Challenge 2        | Points for completing the Challenge 2                  | 200            | Phase 5           |
+| Competition Report | Points for the Competition Report                      | 80             | Phase 6           |
+| Social Excellence  | Points for active participation in the Community Forum | 100            | Phase 6           |
+| Jury               | Points from the Jury                                   | 100            | Phase 6           |
 | **Total**          | **Sum of the categories**                              | **1000**       |
 
 ## Team Proposal
