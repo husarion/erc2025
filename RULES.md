@@ -60,7 +60,7 @@ Neither Organizer nor the Operator are responsible for any content posted on the
 
 ## Equipment and infrastructure usage
 
-Operator and the Organizer will provide some infrastructure for the Competition. This includes but it's not limited to the platforms (Husarion Panther and Husarion Lynx), accessories specific for each of the tasks, the Marsyard environment, and the Husarnet connectivity. The Teams will be granted remote access to such infrastructure and are subject to the Fair Use Policy. The Fair Use Policy expects that some wear and tear will occur during the Competition and that the Teams will use the infrastructure in a responsible way. The Teams are responsible for any damage or abnormal wear and tear caused by them to the infrastructure.
+Operator and the Organizer will provide some infrastructure for the Competition. This includes but it's not limited to the platforms (Husarion Panther), accessories specific for each of the tasks, the Marsyard environment, and the Husarnet connectivity. The Teams will be granted remote access to such infrastructure and are subject to the Fair Use Policy. The Fair Use Policy expects that some wear and tear will occur during the Competition and that the Teams will use the infrastructure in a responsible way. The Teams are responsible for any damage or abnormal wear and tear caused by them to the infrastructure.
 
 Any attempts to destroy or damage the infrastructure will result in disqualification. Any attempts to use the infrastructure for purposes other than the Competition will result in disqualification. Any attempts to circumvent the security policies or separation between the Teams will result in disqualification. Any attempts of unauthorized access to the infrastructure of both the Competition and other Teams will result in disqualification.
 
@@ -74,9 +74,9 @@ RFC 2119 keywords are used in this document.
 
 Test Drives are the events where the Teams can test their skills in the Marsyard environment. They are used to familiarize the Teams with the environment, the robots, and the tasks. They are also used to gather feedback from the Teams and the Operator. Test Drives are scored.
 
-Challenges are the main tasks that the Teams need to complete during the Competition. They are the most valuable scoring categories.
+Final Challenge is the main task that the Teams need to complete during the Competition.
 
-Challenges and Test (Drives) and called Tasks whenever both are addressed.
+Final Challenge and Test (Drives) and called Tasks whenever both are addressed.
 
 Scoring categories are the individual parts of the Competition that are scored. They are used to calculate the final score and are not limited to Tasks.
 
@@ -90,23 +90,21 @@ Technical Handbook is a document that describes the technical details of the Com
 - 2025.02.10 - Announcement of the Competition
 - 2025.02.24 - Registration opens, first version of Rulebook is published, Community Forum is set up
 - 2025.03.24 - Technical Handbook for Challenge 1 is published
-- 2025.03.31 - Technical Handbook for Challenge 2 is published
+- ~~2025.03.31 - Technical Handbook for Challenge 2 is published~~
 - 2025.04.07 - Registration closes
 - 2025.04.14 - Qualification results are published
+- 2025.06.03 - Connectivity Test
 
 ### Upcoming
 
 > [!NOTE]
 > Upcoming dates are still subject to change. They're published here as a ballpark estimate.
 
-- 2025.06.03 - Connectivity Test
-- 2025.07.01 - Payload Test - Day 1
-- 2025.07.02 - Payload Test - Day 2
-- 2025.08.05 - Challenge Test - First Challenge
-- 2025.08.06 - Challenge Test - Second Challenge
-- 2025.08.26 - Finals - First Challenge
-- 2025.08.27 - Finals - Second Challenge
-- 2025.08.28 - Competition Report due date
+- 2025.07.15 - ROS Test
+- 2025.07.29 - Payload Test
+- 2025.08.12 - Challenge Test
+- 2025.08.26 - Finals
+- 2025.08.28 - Competition Report
 - 2025.08.31 - Results are published, Award Ceremony
 
 Additional Test Drive sessions may be organised during the Competition but are not guaranteed.
@@ -131,14 +129,14 @@ The Operator reserve the right to change the number of Teams for a specific Task
 
 Each Team will be assigned a time slot for completing the Task. Time slots will vary between the Tasks, but in general do not expect to be assigned more than 1 hour for a Task. The exact time slots will be published before the Task. Teams are expected to be ready for the Task at the beginning of the time slot. Teams that are not ready at the beginning of the time slot may be disqualified from the Task. Not showing up for the Task may result in disqualification from the Task. If you know in advance that you won't be able to make it to the Task - please inform the Operator as soon as possible - this is the only way to increase your chance of rescheduling to the end of the queue or be eligible for any extra sessions that may be organized.
 
-| Milestone                 | Team number limit |
-| ------------------------- | ----------------- |
-| Initial list              | 25                |
-| Connectivity Test         | 20                |
-| Payload Test              | 15                |
-| Challenge Test            | 10                |
-| Finals - First Challenge  | 5                 |
-| Finals - Second Challenge | 5                 |
+| Milestone         | Team number limit | Time slot length |
+| ----------------- | ----------------- | ---------------- |
+| Initial list      | 25                |                  |
+| Connectivity Test | 20                | 15 minutes       |
+| ROS Test          | 20                | 15 minutes       |
+| Payload Test      | 10                | 30 minutes       |
+| Challenge Test    | 10                | 30 minutes       |
+| Finals            | 5                 | 1 hour           |
 
 ## Team Limits
 
@@ -177,15 +175,14 @@ Disqualification eliminates a Team from further scoring. Not qualifying for a Ta
 | ------------------ | ------------------------------------------------------ | -------------- | ----------------- |
 | Team Proposal      | Points for the Team Proposal                           | 50             | Phase 1           |
 | Connectivity Test  | Points for passing the Connectivity Test               | 20             | Phase 2           |
+| ROS Test           | Points for passing ROS Test                            | 50             | Phase 2           |
 | Payload Test       | Points for passing the Payload Test                    | 50             | Phase 3           |
-| Challenge Test 1   | Points for passing the Challenge Test 1                | 100            | Phase 4           |
-| Challenge Test 2   | Points for passing the Challenge Test 2                | 100            | Phase 4           |
-| Challenge 1        | Points for completing the Challenge 1                  | 200            | Phase 5           |
-| Challenge 2        | Points for completing the Challenge 2                  | 200            | Phase 5           |
+| Challenge Test     | Points for passing the Challenge Test                  | 100            | Phase 4           |
+| Challenge Finals   | Points for completing the Challenge                    | 200            | Phase 5           |
 | Competition Report | Points for the Competition Report                      | 80             | Phase 6           |
 | Social Excellence  | Points for active participation in the Community Forum | 100            | Phase 6           |
 | Jury               | Points from the Jury                                   | 100            | Phase 6           |
-| **Total**          | **Sum of the categories**                              | **1000**       |
+| **Total**          | **Sum of the categories**                              | **750**        |                   |
 
 ## Team Proposal
 
@@ -231,20 +228,17 @@ During the tests the Operator will be learning too. In case of major issues impa
 
 This Test Drive is focused on the connectivity between the Teams and the infrastructure. The main goal is to ensure that all Teams are able to connect to the infrastructure and that the Internet connection between the Team and the infrastructure is sufficient. The Teams are expected to connect to the infrastructure and perform basic operations. The Teams are expected to provide feedback on the connectivity and the infrastructure during the Task. There will be no ground infrastructure (specifically - neither the Marsyard nor any AR tags, etc.) available during the Connectivity Test - only the robots and the Husarnet connectivity, so do not expect to run any sophisticated workloads during the Connectivity Test. If you want to test other sensors at your own discretion - please contact the Operator first - we may provide you with some extra time or resources - but most likely you'll be moved to the end of the queue.
 
-| Subtask                                                         | Maximum points |
-| --------------------------------------------------------------- | -------------- |
-| Basic Husarnet skills - creating account                        | 1              |
-| Basic Husarnet skills - joining groups                          | 1              |
-| Basic Husarnet skills - pinging devices                         | 1              |
-| Robot connectivity - pinging the assigned robot                 | 1              |
-| Robot connectivity - connecting to the assigned robot via WebUI | 2              |
-| Robot connectivity - connecting to the assigned robot via ROS   | 3              |
-| Robot control - steering the robot around via WebUI             | 2              |
-| Robot control - steering the robot around via ROS               | 3              |
-| Robot sensors - viewing the camera via WebUI                    | 2              |
-| Robot sensors - viewing the camera via ROS                      | 3              |
-| Completing all subtasks in the first try                        | 1              |
-| **Sum**                                                         | **20**         |
+| Subtask                                                  | Maximum points           |
+| -------------------------------------------------------- | ------------------------ |
+| Basic Husarnet skills - creating account                 | 2                        |
+| Basic Husarnet skills - joining groups                   | 2                        |
+| Basic Husarnet skills - pinging any Husarnet device      | 2                        |
+| Basic Husarnet skills - pinging the assigned robot       | 2                        |
+| Using WebUI - connecting to the assigned robot via WebUI | 4                        |
+| Using WebUI - viewing the camera via WebUI               | 4                        |
+| Using WebUI - steering the robot around via WebUI        | 4                        |
+| Completing all subtasks in the first try                 | 2                        |
+| **Sum**                                                  | Sum **22**, capped to 20 |
 
 Free Husarnet account should be enough for most setups. If you need more than that - contact Operator - we will increase your limit for the duration of the Competition.
 
@@ -256,16 +250,40 @@ In case of any issues the Team must notify the Judges immediately. The Judges wi
 
 There will be a time limit for a single take - most likely a 15 minute window. If you're not able to complete the Task in the given window, you can be moved to the end of the queue.
 
+### ROS Test
+
+Same as Connectivity Test but for ROS only. This time pre-made (by us) Foxglove layout is not allowed. We'd like to see any sort of custom interface/config - can be Foxglove, but a little bit more tailored for the Competition - ideally RViz or completely custom one. This time Foxglove itself won't be setup by the Organizers - if you choose to use it - you have to set it up yourself.
+
+Goes without saying that all the sub-tasks must be completed via ROS.
+
+| Subtask                                                                                                                   | Maximum points |
+| ------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| Viewing any camera                                                                                                        | 3              |
+| Viewing all available cameras at the same time                                                                            | 5              |
+| Reading lidar data - and visualizing it on a point cloud                                                                  | 5              |
+| Reading Panther sensors (i.e. the battery state)                                                                          | 3              |
+| Controlling the Panther (i.e. driving around)                                                                             | 3              |
+| Driving (manually) through an obstacle course                                                                             | 6              |
+| Reading any ROS data from the Robot from a remote location (and **not** a local-compute VM) (Screen share does not count) | 5              |
+| Reading all the sensors, at the same time from locations that will be used during the Competition                         | 10             |
+| General proficiency during the Test (i.e. being on time, having contingencies ready, etc)                                 | 10             |
+| **Sum**                                                                                                                   | **50**         |
+
+A little bit of explanation here - the most significant differentiator between the Teams in the Connectivity test was the proficiency level - some felt like they've heard about the Husarnet for the first time ever (and it wasn't even the part that changed last minute), while others were able to complete all the tasks in a matter of minutes. This is why, this time, we will be rewarding not only the end result but also the way you get there (at least the one we see). Keep in mind that this test will be limited to 15 minutes per Team - so time will be a limited resource. During the previous test we were unable to accommodate second-try requests so we won't be doing them this time.
+
+As per the "Reading all the sensors, at the same time" - distributed ROS setup is hard. Having ROS span over the Internet is even more difficult - this is why we want to encourage you to test this **early**. Test the prerequisites for the setup you want to run in the following Tasks - i.e. if you intend to run navigation stack on the local-compute - test reading lidar from the on-site compute, if you want to run object detection remotely (because of the lack of the GPU in local-compute) - test reading the camera data from your (remote) location.
+
 ### Payload Test
 
 During this Test Drive each of the Teams will be given a 30 minute time slot for controlling a robot chosen by the Team. Ground infrastructure will have as many of the Final competition elements as possible - it won't be on Marsyard though. The main goal is to familiarize the Teams with actual robots, sensors, real world connection latency/bandwidth limitations and possibly give the ability to record materials for machine learning. Have in mind that at this point the accessories used for the Competition are not guaranteed not to be changed. The Teams are expected to provide feedback on the robots, the sensors, the connectivity, and the infrastructure during the Task. The Teams are expected to provide a report on the Task right after the Task. The Task will be scored.
 
-| Subtask                                                                                      | Maximum points |
-| -------------------------------------------------------------------------------------------- | -------------- |
-| Sharing current developments with Judges - simulations, code, etc                            | 15             |
-| Completing a test of a single subsystem (i.e. autonomous navigation, panel interaction, etc) | 15             |
-| Recording useful data for further development                                                | 10             |
-| **Sum**                                                                                      | **50**         |
+| Subtask                                                                                     | Maximum points |
+| ------------------------------------------------------------------------------------------- | -------------- |
+| Sharing current developments with Judges - simulations, code, etc                           | 15             |
+| Completing a test of a single subsystem (i.e. autonomous navigation, object detection, etc) | 15             |
+| Recording useful data for further development                                               | 10             |
+| General proficiency during the Test (i.e. being on time, having contingencies ready, etc)   | 10             |
+| **Sum**                                                                                     | **50**         |
 
 All of the subtasks will require some sort of proof that you've completed the tasks. Most of the methods from the Connectivity Test will be allowed. The exact possibilities will be provided during the Task. Time and language requirements are the same as for the Connectivity Test.
 
@@ -273,25 +291,23 @@ Useful data is defined as vaguely as possible - a set of notes or a video of the
 
 ### Challenge Test
 
-Challenge Test will be a two-day test mocking the Final Tasks. The main difference will be that it still won't happen on the Marsyard, and that you'll be getting half as many points as in the Final Tasks. You'll be provided with two time slots - one per day - just as in the Final Tasks.
+Challenge Test will be a test mocking the Final Challenge. The main difference will be that it still won't happen on the Marsyard, and that you'll be getting half as many points as in the Final Tasks. Time slot for a single Team will also be cut by half.
 
-The Challenge Test may be streamed to all the Teams. Stream will most likely have a delay that'd make it impossible to use it for real-time control. The stream will be used for other Teams to get the same set of guidelines and advice from Judges.
+The Challenge Test may be streamed to all the Teams. Stream will most likely have a delay that'd make it impossible to use it for real-time control. The stream may be used for other Teams to get the same set of guidelines and advice from Judges.
 
-## Challenges
+## Final Challenge
 
-Challenges will be held on the Marsyard, a special outdoor environment designed for testing rovers. The Marsyard is a large area with various obstacles and terrains. The Marsyard is not guaranteed to have the same shape or form to one on On-site formula.
+Final Challenge will be held on the Marsyard, a special outdoor environment designed for testing rovers. The Marsyard is a large area with various obstacles and terrains. The Marsyard is not guaranteed to have the same shape or form to one on On-site formula.
 
 ### The story
 
-Your mission was given a lander with two robots. One large, with a comprehensive set of sensors (Husarion Panther) and one small and nimble for mixed indoor and outdoor applications (Husarion Lynx). The lander is equipped with some computing power too – so you can host your most expensive algorithms there. The mission is to investigate a crash site of a previous expedition and figure out whether you can find a path through the hazardous waste scattered all over the place.
+Your mission was given a lander with two robots. One large, with a comprehensive set of sensors (Husarion Panther). The lander is equipped with some computing power too – so you can host your most time-sensitive algorithms there. The mission is to investigate a crash site of a previous expedition.
 
-Your first Task is to investigate the crash site using Husarion Panther and provide us with a report of what you’ve found.
+Your Task is to investigate the crash site using Husarion Panther and provide us with a report of what you’ve found.
 
-Your second Task is to navigate the Husarion Lynx through the Marsyard avoiding hazardous waste. There are a couple of items that will help you with the Task - namely there's an equipment panel in an old habitat, guarded by a still operational airlock. You can use it to obtain the admin password to an old reactor equipped with sensors that'll give you a map of known radioactive materials.
+### Ground rules
 
-### Shared parts for both Challenges
-
-Detailed description of the environments will be provided in the Technical Handbook. In general the Task will take place on Marsyard - a special outdoor environment designed for testing rovers. The Marsyard is a large area with various obstacles and terrains. The Marsyard is not guaranteed to have the same shape or form to one on On-site formula. The setup may (and most likely will) be different between Challenge 1 and Challenge 2, but Teams must not share any operational data (like - locations of tools) between the Challenges.
+Detailed description of the environments will be provided in the Technical Handbook. In general the Task will take place on Marsyard - a special outdoor environment designed for testing rovers. The Marsyard is a large area with various obstacles and terrains. The Marsyard is not guaranteed to have the same shape or form to one on On-site formula.
 
 During the Competition some Teams will inevitably make some risky moves and flip the robot or even let the robot loose and leave the designated area. In those, and in any case that may be a risk to both the equipment and the environment (including Judges, Volunteers and Spectators) Judges reserve a right to immediately interrupt the Task and take control of the Infrastructure. Exact repercussions will be decided by the Judges on a case-by-case basis, and may result in negative points or even disqualification. Judges may also decide to restore safety in any way they choose and let the Team continue. There will be no extra time granted for such interruptions. We do not want you to be overly cautious - but we do want you to be responsible - that's why will be awarding safety precautions with extra points - especially if nothing bad happens.
 
@@ -303,11 +319,11 @@ Some parts of the scoring are being intentionally vague - this is to allow for t
 
 Teams must communicate the technical (for the Technical excellence scoring category) and safety features (for the Safety considerations scoring category) for a particular run during the Task in order to get the points for those axes. Teams are encouraged to prepare a short description of the technical/safety features used beforehand. Such descriptions should be no longer than a single A4 page for each of the Challenges and should be provided to the Judges at the beginning of the Task. In case some mechanisms are disabled during the particular runs - such changes must be communicated to the Judges immediately.
 
-### Challenge 1 - Exploration Task - Investigate the crash site
+### Final Challenge - Exploration Task - Investigate the crash site
 
-During the Challenge 1 on the Marsyard there will be AR tags scattered around the field, for you to use as a reference. Use of the tags is not required. There will also be Features - both things that **do** match the setting - like tools, rock formations, possibly other robots, and things that **do not** match the setting - like a piece of paper, a bottle of water, etc.
+During the Final Challenge on the Marsyard there will be AR tags scattered around the field, for you to use as a reference. Use of the tags is not required. There will also be Features - both things that **do** match the setting - like tools, rock formations, possibly other robots, and things that **do not** match the setting - like a piece of paper, a bottle of water, etc.
 
-The goal is to investigate the crash site and provide a Report of what you've found. The Report should contain the information about the crash site, the objects found (including visual evidence like photos), whether they seem out of place and whether they seem to be useful during the remainder of the mission. Number of Features won't be known before the Task. Numbers and locations of Features may change between the Teams.
+The goal is to investigate the crash site and provide a Report of what you've found. The Report should contain the information about the crash site, the objects found (including visual evidence like photos), whether they seem out of place and whether they seem to be useful during the remainder of the mission. Number of the Features won't be known before the Task. Numbers and locations of Features may change between the Teams.
 
 The report should be human-readable and in a PDF format. The report should have a repeatable part, where each of the identified objects is described with a clear structure (things like - clear locations of photos, descriptions, etc). The report should be as comprehensive as possible. The report should be provided at most 15 minutes after the Task via the method specified by the Jury. Not providing the report in time may result in a zero-score for a Task.
 
@@ -347,124 +363,8 @@ Teams can and are encouraged to use the recent advances in machine learning, esp
 
 **Safety considerations** - is a metric of the quality of safety features implemented - things like, but not limited to: whether there were any mechanisms providing auto-shutdown, whether there was a remote-kill switch, whether there were any sanity checks on the sensors and behavior of the robot, etc.
 
-### Challenge 2 - Infrastructure - Navigate around the hazardous waste
-
-Challenge 2 is designed to multiple smaller tasks that contestants can skip or fail (at the cost of points) instead of being a single large project. The Challenge will be divided into sub-tasks that will be scored separately. The Challenge will be scored based on the sum of points from each sub-task. This Challenge is also intended to be fully controlled by humans - no autonomy is required although it's allowed and may be awarded as a part of Technical excellence. All sub-tasks are a part of a single Task and should be completed in a single time slot. Sub-tasks are meant to be executed in order. Changing the order is allowed although it will most likely result in a lower score. Proposed order is: start, through the airlock to the habitat, interaction with the equipment panel, through the airlock out the habitat, to the reactor, through the waste field, to the final location.
-
-Start location will be the same for all the Teams. There will be a safe path from the starting location to the Airlock, the Equipment panel and the Reactor. There will be a Hazardous Waste Field between the Start location and the Final location. There will be at least one safe path through the Hazardous Waste Field. The robot will be equipped with a display allowing Judges to see how close/far to the nearest Hazardous Waste the robot is at all times. There may be a Judge-resettable latch indicating hitting the set proximity threshold.
-
-Some sub-tasks during this Challenge require Teams to provide microcontroller firmware for the equipment. The exact rules for sending such firmware will be provided before the Task. Technical details of such firmware will be specified in Technical handbook. The firmware should be provided by the time specified in the announcement. Teams can choose not to provide the firmware - in such case a firmware may be provided by the Operator for the entertainment's sake. Teams are not eligible for making any specifications for such Operator-provided firmware and shall adjust to the APIs and protocols specified in the Technical handbook. Teams should declare whether they will be providing firmwares via a method specified in the announcement. Declaring to provide and not providing a firmware will result in a zero score for the sub-task. Declaring not to provide a firmware and using one provided by the Operator will result in a partial score for a task (i.e. some categories will not be applicable at all and get a zero points, but some will still be scored). Declaring not to provide a firmware is final and cannot be changed during the Task.
-
-Teams are not allowed to change firmwares during the Task. Firmware can provide multiple modes of operation switched by the Team during the Task. Such switching mechanisms should be well-described and communicated to the Jury before the Task. Every mode switch during the Task should be communicated to Jury immediately.
-
-For any of the firmware-related tasks, Teams are advised to build (or simulate) mockups at their own discretion. Plans and models for the Competition-used ones will be provided at the later time. Have in mind that the specifications found in the Technical handbook take precedence before the plans and models provided by the Operator.
-
-| Sub-task/category             | Maximum points |
-| ----------------------------- | -------------- |
-| Airlock                       | 50             |
-| Equipment panel               | 50             |
-| Reactor                       | 20             |
-| Navigating the site           | 50             |
-| Overall technical excellence  | 20             |
-| Overall safety considerations | 10             |
-| **Sum**                       | **200**        |
-
-**Overall technical excellence** - is a metric of the quality of used technical solutions - have in mind that, as this is a human-controlled Task, we will also include the quality of technical aids for humans - things like, but not limited to: quality of the remote control interface, use of checklists and notes, means of communication between the Team members during the Task, etc.
-
-**Overall safety considerations** - same as per Challenge 1.
-
-The same requirements for providing Judges with the technical and safety features descriptions apply as in Challenge 1.
-
-#### Sub-task 1 - Airlock
-
-Airlock is intended to be used twice - once going into the habitat and once going out the habitat - so both directions will be tested. Exact hardware specifications will be provided in the Technical handbook but the general gist is: there will be two electronically controlled gates, and some sensors near them (i.e. pressure plates, distance sensors, etc). Airlock has to be logically functional - i.e. both gates must not be opened at the same time, the gates must not operate if there's a robot passing them, etc. Airlock can use any communication mechanism the Team sees fits (both with the operator and the robot) - including Husarnet connection. Airlock can also be fully autonomous and base it's operation entirely on it's sensors. Operating each of the gates manually, by the operator will score lower.
-
-In case Team chooses to use any form of communication to and from the Airlock - please coordinate the details with the Operator - things like WiFi network names, Husarnet addresses and so on may need to be set according to Operator details in order to function.
-
-The Team may choose not to use the Airlock and either ask the Judges for skipping this sub-task or drive around it. In such cases the Team will get a zero score for the sub-task.
-
-Team can try each of the directions multiple times. The best attempt will be scored.
-
-| Category             | Maximum points                                                                     |
-| -------------------- | ---------------------------------------------------------------------------------- |
-| Entering the habitat | Without any communication - 20, controlled by the robot - 15, operator control - 5 |
-| Exiting the habitat  | Without any communication - 20, controlled by the robot - 15, operator control - 5 |
-| Technical excellence | 10                                                                                 |
-| **Sum**              | **50**                                                                             |
-
-**Technical excellence** - in this case things like: use of the lease amount of sensors, extra safety features, quality of signaling the status of an airlock, etc.
-
-Not providing a firmware for this sub-task will multiply all categories by 50%.
-
-#### Sub-task 2 - Equipment panel
-
-Some sort of equipment panel interaction is always a part of any robotics competition. We wanted to include it here too, but traditional way of using a manipulator for it was too risky for the equipment in case of a remote control. This is why, this time you'll not only be controlling the robot but also providing firmware for the panel itself. The exact specifications will be in the Technical Handbook but a general gist is that the panel will have an LED matrix, a couple of servomechanisms with large, contrasting arrows and possibly some pressure plates to be actuated by the robot. In this case the firmware used in the Equipment panel is not allowed to use any communication methods with the operator and the robot - other than ones specified above.
-
-Said microcontroller will be connected to some sort of a control board that will have two signals connected to the rest of the system - namely the "enable line" and an UART tx line. Intended way of operation will be:
-- Team's firmware initialize and is ready to accept signals (signals can be read from the pressure plates or can i.e. utilize an internal timer to continue the sequence)
-- Team's firmware pulls the enable line (high/low - will be specified in the Technical handbook)
-- Control board generates a password
-- Control board sends the password to the Reactor
-- Control board sends the password over UART to the Team's firmware
-- Control board enables the power to panel's output - like the LEDs, servos, etc
-- Control boards starts the timer
-- Team's firmware reads and processes the password
-- Team's firmware uses LEDs, servos, etc to communicate the password to the robot
-- Robot uses it's sensors (i.e. camera) to read the password
-- Team's firmware pulls the enable line back
-- Control board disables the power to the panel's output
-- Control board stops the timer
-- Control board saves the timer value and sends it to the Judges
-- Team's firmware is ready to accept signals again
-- Either robot or operator saves the password to be used in the Reactor
-
-So in essence your task will be to design and implement the most effective visual communication protocol possible, for provided hardware. We will only be timing the "send" part, not the "receive" part - so your robot (or operator's panel) can process the saved stream for as long as you want.
-
-Reactor will be saving a list of the passwords for all the tries - so you'll be scored for the most effective run. Even though your protocol should be at least "somewhat" effective. We plan on passwords being a couple dozen characters long.
-
-We also advise you to implement some checksums, redundancies and sanity checks in your protocol. The only other way for you to check whether the password you have is correct would be to physically travel to the Reactor and checking it there. Teams should also plan for any environmental issues that may occur - like the weather or the lighting conditions. Such conditions may also change between the Teams. Operator will try to minimize those challenges by placing the panel inside a tent and providing consistent lighting if needed, but some issues are still expected to occur.
-
-Firmware provided by the Operator will neither be super effective nor super safe. This is why the only penalty for not providing a firmware for this sub-task will be a multiplier of 50% for the Technical excellence category, and scores for all other categories will be the same for all Teams not providing a firmware. Firmware provided by the Operator will be scored alongside the Teams' firmwares.
-
-For the Teams that choose to skip this sub-task, there will be a backup password for the Reactor provided. The backup password will not grant the full access to the Reactor's data in the next sub-task. The backup password will still have to be read using the robot from inside the habitat.
-
-| Category                                    | Maximum points |
-| ------------------------------------------- | -------------- |
-| Effectiveness of communication              | 25             |
-| Number of outputs used in the communication | 15             |
-| Technical excellence                        | 10             |
-| **Sum**                                     | **50**         |
-
-#### Sub-task 3 - Reactor
-
-Reactor will be a simple device operated wirelessly and enabled via a pressure plate nearby. Interacting with the Reactor will only be possible while the pressure plate is activated. Reactor will be accepting a password from the previous sub-task and returning data:
-- about the final location (in case of a correct admin password or a backup password)
-- about the hazardous waste (in case of a correct admin password)
-
-Provided data will either be in a form of a list of coordinates or an image of a map. If the Team chooses an image of a map instead of the coordinates - scores for all the tries will assume that team has chosen an image instead of a list. Exact technical details will be specified in the Technical handbook.
-
-| Category                                                    | Maximum points                                             |
-| ----------------------------------------------------------- | ---------------------------------------------------------- |
-| Requesting data from the Reactor using any correct password | 10 points for an image map, 20 points for coordinates list |
-| Technical excellence                                        | 30                                                         |
-| **Sum**                                                     | **50**                                                     |
-
-**Technical excellence** - here means the ability to clearly communicate received data to the operator. This may include things like: generating a map based on the coordinates, plotting the best possible route, plotting the heatmap for alternatives, providing an interface for manually marking the waste, drawing an overlay map based on the live data from robots sensors, etc. Some of the scored traits may be shared with the next sub-task - as a rule of thumb - all the map-related features should be scored here, and operational features should be scored in the next sub-task.
-
-In case the Team chooses to skip the task - the Judges will provide the Team with the desired finish location. The Team will not be provided with the hazardous waste map. The Team will be scored in this sub-task only for the Technical excellence category - as this shares some of the axes with the next sub-task. All the other categories will score zero points.
-
-#### Sub-task 4 - Navigating the site
-
-The final sub-task will be to physically drive the robot to the final location known from the previous sub-task. There will be Ultrawideband tags placed around the Marsyard and the robot will be equipped with a receiver for them. There will be a ROS topic with a distance to the closest tag available. The Judges will provide the Team with a threshold value of said reading that they are expected not to exceed. Exceeding the reading at last once will result in a point-penalty for this sub-task run. Teams must not share any data between the attempts - including the sensors readings in various places. Judges are allowed to change sensor places between the Teams and attempts.
-
-| Category                     | Maximum points |
-| ---------------------------- | -------------- |
-| Reaching the final location  | 10             |
-| Avoiding the hazardous waste | 25             |
-| Technical excellence         | 15             |
-| **Sum**                      | **50**         |
-
-**Technical excellence** - in this case scored axes will include things like: how easy it was to operate the robot, how well all the dangers (i.e. proximity to the hazardous materials, obstacles) and robot's status where communicated to the operator.
+> [!NOTE]
+> Points will be deducted for driving over the Landmarks, Markers (as described in the Technical Handbook) and so on. Depending on the severity of the violation - points may be deducted from the Technical excellence, Safety considerations or even the Jury points. The exact number of points deducted will be decided by the Judges on a case-by-case basis.
 
 ## Other activities
 
