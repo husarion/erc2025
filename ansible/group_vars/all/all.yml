@@ -1,0 +1,11 @@
+ansible_user: husarion
+team_user: team
+
+admin_keys:
+    # pidpawel
+    - ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAE4/5e2Ox7A2+Evpq8fZ82SuQmErjpy40xafY/KXMrphmT/TZ9RWI8dPcGvGBAMitLMsguqPuHswmacsuTzB13h4AAx3ya5tnAWgX3e7E7gfiPRSbWLbCDMD3F7lp6MRQZetibbikFZd35Y8uR+q6r1Xrsu5P+4kG3XHZp1iodCIgb5vg==
+    - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK4Gri/EcCo5kpnDCu4qA+mB+prlmJL1KCZStUsFI8Cs
+    - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKpZNpPLtwJeDnGMRH1qBBUn3NjTGANZxfZNi+fcMVT4
+    # mily
+    - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPcG5IcHyJWOEVokT3L45cQMO+PKNAh01TQESwfYbsRf mily@husarnet
+    - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJxdEJDrS8TpYfyIpsfqmxQ91nOMgpmZG6VZYuncREmu husarion

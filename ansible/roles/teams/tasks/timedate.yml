@@ -1,0 +1,26 @@
+---
+- name: Set timezone
+  community.general.timezone:
+    name: Europe/Warsaw
+
+- name: Install systemd-timesyncd
+  ansible.builtin.apt:
+    name: systemd-timesyncd
+    state: present
+  tags: packages
+
+- name: Copy systemd-timesyncd's config
+  ansible.builtin.copy:
+    src: files/timesyncd.conf
+    dest: /etc/systemd/timesyncd.conf
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
+  tags: configure
+  notify: Restart systemd-timesyncd
+
+- name: Start ane enable timesyncd in systemd
+  ansible.builtin.systemd:
+    name: systemd-timesyncd
+    enabled: true
+    state: started

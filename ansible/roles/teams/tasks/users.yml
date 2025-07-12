@@ -1,0 +1,69 @@
+---
+- name: Install sudo
+  ansible.builtin.apt:
+    pkg: sudo
+    state: present
+  tags: packages
+
+- name: "Create group: wheel"
+  ansible.builtin.group:
+    name: wheel
+    state: present
+
+- name: Configure nopasswd sudo access for group wheel
+  ansible.builtin.lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: ^%wheel
+    line: "%wheel ALL=(ALL) NOPASSWD: ALL"
+    validate: visudo -cf %s
+
+# Root/husarion account
+
+- name: Add users to group wheel allowing them root access
+  ansible.builtin.user:
+    name: husarion
+    groups: wheel
+    append: true
+
+- name: Setup admin SSH keys
+  ansible.posix.authorized_key:
+    user: "{{ item }}"
+    key: "{{ admin_keys | join('\n') }}"
+    exclusive: true
+  with_items:
+    - root
+    - husarion
+
+- name: Setup admin passwords
+  ansible.builtin.user:
+    user: "{{ item }}"
+    password: "$2a$14$1GzGQUL1QPaomeN0npS8peeNk.Bn33QL21T/cAUnp.LzW2Xth0R.K"
+  with_items:
+    - root
+    - husarion
+
+# Team account
+
+- name: Create a group for a team
+  ansible.builtin.group:
+    name: "{{ team_user }}"
+    state: present
+
+- name: Create all of the users
+  ansible.builtin.user:
+    name: "{{ team_user }}"
+    group: "{{ team_user }}"
+    password: erc2025
+    shell: /bin/bash
+
+- name: Allow apt and rosdep access for team user
+  community.general.sudoers:
+    name: allow-pkg-mgmt
+    state: present
+    user: "{{ team_user }}"
+    commands:
+      - /usr/bin/apt
+      - /usr/bin/apt-get
+      - /usr/bin/rosdep
+  no_log: false

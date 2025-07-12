@@ -1,0 +1,37 @@
+---
+- name: System configuration
+  ansible.builtin.import_tasks: system.yml
+  tags: system
+
+- name: Configure timezone and NTP
+  ansible.builtin.import_tasks: timedate.yml
+  tags: timedate
+
+- name: Configure locales early
+  ansible.builtin.import_tasks: locales.yml
+  tags: locales
+
+- name: Install commonly used shell tools
+  ansible.builtin.import_tasks: shell.yml
+  tags: shell
+
+- name: Configure users accounts
+  ansible.builtin.import_tasks: users.yml
+  no_log: true
+  tags: users
+
+- name: Configure network
+  ansible.builtin.import_tasks: network.yml
+  tags: network
+
+- name: Finally, configure docker to run workloads
+  ansible.builtin.import_tasks: docker.yml
+  tags: docker
+
+- name: Install Husarnet Daemons
+  ansible.builtin.import_tasks: husarnet.yml
+  tags: husarnet
+
+- name: Setup ROS workspace
+  ansible.builtin.import_tasks: ros_workspace.yml
+  tags: ros_workspace

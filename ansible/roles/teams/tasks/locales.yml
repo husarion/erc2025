@@ -1,0 +1,16 @@
+---
+- name: Install locales
+  ansible.builtin.apt:
+    name: locales
+    state: present
+  tags: packages
+
+- name: Configure locales
+  ansible.builtin.copy:
+    src: files/locale.gen
+    dest: /etc/locale.gen
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
+  notify: Regenerate locale
+  tags: locale, configure

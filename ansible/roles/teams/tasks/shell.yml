@@ -1,0 +1,48 @@
+---
+- name: Install tools commonly used tools
+  ansible.builtin.apt:
+    name:
+      # Remember to sort them alphabetically so git won't get confused
+      - aptitude
+      - bash
+      - bash-completion
+      - bc
+      - bind9-host
+      - bridge-utils
+      - console-setup
+      - curl
+      - dosfstools
+      - earlyoom
+      - fish
+      - fwupd
+      - fwupd-signed
+      - htop
+      - ifenslave
+      - iptraf-ng
+      - iputils-tracepath
+      - irqbalance
+      - jq
+      - just
+      - lm-sensors
+      - lsof
+      - mc
+      - mtr
+      - ncdu
+      - net-tools
+      - pigz
+      - plocate
+      - python3-pip
+      - qemu-guest-agent
+      - rsync
+      - screen
+      - telnet
+      - tmux
+      - traceroute
+      - usbutils
+      - util-linux
+      - wget
+      - zsh
+      - zsh-autosuggestions
+      - zsh-syntax-highlighting
+    state: present
+  tags: packages

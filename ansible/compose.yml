@@ -1,0 +1,20 @@
+services:
+  ansible:
+    build:
+      context: .
+      dockerfile: ansible.dockerfile
+    command: /bin/bash
+
+    environment:
+      SSH_AUTH_SOCK: /ssh-agent
+
+    volumes:
+      - type: bind
+        source: ./
+        target: /workdir
+      - type: bind
+        source: $SSH_AUTH_SOCK
+        target: /ssh-agent
+      - type: bind
+        source: ~/.ssh/known_hosts
+        target: /root/.ssh/known_hosts

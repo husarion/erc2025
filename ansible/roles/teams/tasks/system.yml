@@ -1,0 +1,48 @@
+---
+- name: Fix ROS2 sources.list
+  ansible.builtin.copy:
+    src: files/ros2.sources
+    dest: /etc/apt/sources.list.d/ros2.sources
+
+- name: Remove old ROS2 sources.list
+  ansible.builtin.file:
+    path: /etc/apt/sources.list.d/ros2.list
+    state: absent
+
+- name: Refresh apt cache (best effort)
+  ansible.builtin.apt:
+    update_cache: true
+  ignore_errors: true
+  tags: apt
+
+- name: Change hostname
+  ansible.builtin.hostname:
+    name: "team-{{ team_id }}-{{ team_slug }}"
+  tags: hostname
+
+- name: Remove some packages
+  ansible.builtin.apt:
+    pkg:
+      - husarion-motd
+    state: absent
+  tags: packages
+
+- name: Set MOTD
+  ansible.builtin.copy:
+    dest: /etc/motd
+    content: |
+      Welcome {{ team_slug }}!
+  tags: motd
+
+- name: Check if filesystem has already been resized
+  ansible.builtin.stat:
+    path: /resized
+  register: fs_resized_flag
+
+- name: Resize filesystem
+  ansible.builtin.shell: |
+    growpart /dev/sda 2
+    resize2fs /dev/sda2
+    touch /resized
+  when: not fs_resized_flag.stat.exists
+  tags: resize

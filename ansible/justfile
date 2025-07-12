@@ -1,0 +1,40 @@
+set positional-arguments
+
+[private]
+default:
+    @just --list
+
+# Build container image for ansible and other tools
+build:
+    docker compose build
+
+# Lint all ansible files
+lint:
+    docker compose run --rm ansible ansible-lint
+
+# Fix as much of the linting issues as possible
+fix:
+    docker compose run --rm ansible ansible-lint --fix
+
+# Start a shell in the ansible container
+shell:
+    docker compose run --rm ansible /bin/bash
+
+# Run a shell command on all hosts in the fleeet
+fleet *args='':
+    docker compose run --rm ansible ansible -i inventory.ini --playbook-dir /workdir all -m shell -a {{ quote(args) }}
+
+# Run all roles
+playbook *args='': build
+    docker compose run --rm ansible ansible-playbook -i inventory.ini play.yml {{ args }}
+
+teams *args='': (playbook "--tags teams " + args)
+
+list-hosts:
+    @docker compose run --rm ansible ansible -i inventory.ini --playbook-dir /workdir all --list-hosts | tail -n +2
+
+fleet-ping:
+    fping -alm $(just list-hosts)
+
+facts:
+    docker compose run --rm ansible ansible -i inventory.ini --playbook-dir /workdir all -m ansible.builtin.setup

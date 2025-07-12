@@ -1,0 +1,81 @@
+---
+- name: Set ROS distro as Jazzy
+  ansible.builtin.set_fact:
+    ros_distro: jazzy
+    ros_ws: /home/{{ team_user }}/ros_ws
+
+- name: Install ros-dev-tools
+  ansible.builtin.apt:
+    name:
+      # Remember to sort them alphabetically so git won't get confused
+      - ros-dev-tools
+      - ros-{{ ros_distro }}-image-transport
+      - ros-{{ ros_distro }}-nav2-bringup
+      - ros-{{ ros_distro }}-teleop-twist-keyboard
+      - ros-{{ ros_distro }}-rmw-cyclonedds-cpp
+      - ros-{{ ros_distro }}-rmw-fastrtps-cpp
+      - ros-{{ ros_distro }}-ros-base
+    state: present
+  tags: packages
+
+- name: Create ROS workspace directory
+  ansible.builtin.file:
+    path: "{{ ros_ws }}/src"
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    state: directory
+
+- name: Create ROS workspace and clone Husarion UGV ROS package
+  ansible.builtin.git:
+    repo: https://github.com/husarion/husarion_ugv_ros.git
+    dest: "{{ ros_ws }}/src/husarion_ugv_ros"
+    version: "ros2"
+    update: false
+  become: yes
+  become_user: "{{ team_user }}"
+
+- name: Init rosdep
+  ansible.builtin.command:
+    cmd: sudo -u {{ team_user }} rosdep init
+  ignore_errors: true
+
+- name: Install ROS workspace dependencies
+  ansible.builtin.shell:
+    chdir: "{{ ros_ws }}"
+    executable: /bin/bash
+    cmd: |-
+      set -e
+      source /opt/ros/{{ ros_distro }}/setup.bash
+      vcs import src < src/husarion_ugv_ros/husarion_ugv/${HUSARION_ROS_BUILD_TYPE}_deps.repos
+      rosdep update --rosdistro {{ ros_distro }}
+      rosdep install --from-paths src -y -i
+      rosdep fix-permissions
+  environment:
+    ROS_DISTRO: "{{ ros_distro }}"
+    HUSARION_ROS_BUILD_TYPE: simulation
+  become: yes
+  become_user: "{{ team_user }}"
+
+- name: Test for .ros_envs_marker
+  ansible.builtin.stat:
+    path: /home/{{ team_user }}/.ros_envs_marker
+  register: ros_envs_marker
+
+- name: Source ROS in .bashrc
+  ansible.builtin.lineinfile:
+    dest: /home/{{ team_user }}/.bashrc
+    state: present
+    line: "{{ item.line }}"
+  loop:
+    - { line: "# ROS setup" }
+    - { line: "source /opt/ros/{{ ros_distro }}/setup.bash" }
+    - { line: "source {{ ros_ws }}/install/setup.bash" }
+    - { line: "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" }
+  when: not ros_envs_marker.stat.exists
+
+- name: Create .ros_envs_marker
+  ansible.builtin.file:
+    path: /home/{{ team_user }}/.ros_envs_marker
+    mode: '0600'
+    state: touch
+  when: not ros_envs_marker.stat.exists

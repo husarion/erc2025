@@ -1,0 +1,25 @@
+---
+
+- name: Remove all netplan configs except ours
+  find:
+    paths: /etc/netplan
+    patterns: "*.yaml"
+    excludes: "netplan.yaml"
+  register: old_netplan_files
+
+- name: Delete old netplan configs
+  file:
+    path: "{{ item.path }}"
+    state: absent
+  loop: "{{ old_netplan_files.files }}"
+
+- name: Deploy netplan config
+  template:
+    src: files/netplan.yaml
+    dest: "/etc/netplan/netplan.yaml"
+    owner: root
+    group: root
+    mode: '0600'
+  notify:
+    - netplan apply
+

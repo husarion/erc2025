@@ -1,0 +1,33 @@
+network:
+  version: 2
+  renderer: NetworkManager
+
+  ethernets:
+    teams-net:
+      match:
+        macaddress: "CA:FE:00:00:30:{{ team_id }}"
+      dhcp4: no
+      dhcp6: no
+      optional: false
+
+      addresses:
+        - 10.30.{{ team_id }}.2/24
+
+      routes:
+          - to: default
+            via: 10.30.{{ team_id }}.1
+
+      nameservers:
+        addresses:
+          - 1.1.1.1
+          - 8.8.8.8
+
+    robot-net:
+      match:
+        macaddress: "CA:FE:00:00:15:{{ team_id }}"
+      dhcp4: no
+      dhcp6: no
+      optional: true
+
+      addresses:
+        - 10.15.20.{{ team_id }}/24

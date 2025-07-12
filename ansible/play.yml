@@ -1,0 +1,13 @@
+---
+- name: Setup Team machines
+  hosts: teams
+  tags: teams
+  roles:
+    - role: teams
+  become: true
+  any_errors_fatal: true
+
+  pre_tasks:
+    - name: Gather facts regardless of tags
+      tags: always
+      ansible.builtin.setup: {}
