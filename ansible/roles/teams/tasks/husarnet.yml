@@ -40,3 +40,11 @@
     enabled: true
     state: started
   tags: services
+
+- name: Configure Husarnet to use Beta
+  ansible.builtin.copy:
+    dest: /etc/default/husarnet
+    content: |
+      HUSARNET_INSTANCE_FQDN=beta.husarnet.com
+  notify:
+    - Restart Husarnet

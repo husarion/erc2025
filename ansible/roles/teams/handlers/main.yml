@@ -24,3 +24,8 @@
 
 - name: netplan apply
   command: netplan apply
+
+- name: Restart Husarnet
+  ansible.builtin.systemd:
+    name: husarnet
+    state: restarted

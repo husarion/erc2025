@@ -36,7 +36,7 @@
 
 - name: Init rosdep
   ansible.builtin.command:
-    cmd: sudo -u {{ team_user }} rosdep init
+    cmd: sudo rosdep init
   ignore_errors: true
 
 - name: Install ROS workspace dependencies
@@ -61,6 +61,15 @@
     path: /home/{{ team_user }}/.ros_envs_marker
   register: ros_envs_marker
 
+- name: Create cyclonedds.xml
+  ansible.builtin.copy:
+    src: files/cyclonedds.xml
+    dest: /home/{{ team_user }}/cyclonedds.xml
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0644'
+  when: not ros_envs_marker.stat.exists
+
 - name: Source ROS in .bashrc
   ansible.builtin.lineinfile:
     dest: /home/{{ team_user }}/.bashrc
@@ -71,6 +80,7 @@
     - { line: "source /opt/ros/{{ ros_distro }}/setup.bash" }
     - { line: "source {{ ros_ws }}/install/setup.bash" }
     - { line: "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" }
+    - { line: "export CYCLONEDDS_URI=file:///home/{{ team_user }}/cyclonedds.xml" }
   when: not ros_envs_marker.stat.exists
 
 - name: Create .ros_envs_marker

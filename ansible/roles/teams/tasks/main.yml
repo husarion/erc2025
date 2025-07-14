@@ -17,7 +17,6 @@
 
 - name: Configure users accounts
   ansible.builtin.import_tasks: users.yml
-  no_log: true
   tags: users
 
 - name: Configure network

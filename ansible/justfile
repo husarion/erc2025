@@ -20,7 +20,7 @@ fix:
 shell:
     docker compose run --rm ansible /bin/bash
 
-# Run a shell command on all hosts in the fleeet
+# Run a shell command on all hosts in the fleet
 fleet *args='':
     docker compose run --rm ansible ansible -i inventory.ini --playbook-dir /workdir all -m shell -a {{ quote(args) }}
 

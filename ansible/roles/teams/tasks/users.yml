@@ -54,7 +54,7 @@
   ansible.builtin.user:
     name: "{{ team_user }}"
     group: "{{ team_user }}"
-    password: erc2025
+    password: "$2a$10$aSGqvix97L5ltD8adorKU.Nu4Z3PA732SufzQRJ61QCtFPtia5vly"
     shell: /bin/bash
 
 - name: Allow apt and rosdep access for team user
