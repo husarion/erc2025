@@ -10,7 +10,6 @@
       <EnableMulticastLoopback>true</EnableMulticastLoopback>
     </General>
     <Discovery>
-      <ParticipantIndex>0</ParticipantIndex>
       <Peers>
         <Peer Address="10.15.20.2" />
         <Peer Address="10.15.20.3" />
