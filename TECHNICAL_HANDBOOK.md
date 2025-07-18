@@ -80,7 +80,7 @@ digraph hierarchy {
 
 Panther's maximum speed will be limited to 1.0 m/s during the Competition. This is to ensure that the robot can safely operate in the Marsyard and that the Competitors can safely control it. We still advise Competitors to have a configurable maximum speed in their software, so that they can adjust it to the situation.
 
-Competitors will NOT be given any more direct access to the robot's internals, including SSH access. Depending on the task, robot's ROS 2 interface may be composed of nodes from two different machines - named User Computer and Built-in Computer in the respective robots' manuals. Those computers will be exposed to the Competitors as separate Husarnet Devices ("Elements" in a current Husarnet Dashboard naming scheme). Competitors SHOULD plan for those machines in their account's quota.
+Competitors will NOT be given any more direct access to the robot's internals, including SSH access. Depending on the task, Robot's ROS 2 interface may be composed of nodes from two different machines - named User Computer and Built-in Computer in the respective robots' manuals. ROS nodes on the Robot are set up by the Competition Operator and not by the Teams.
 
 Simulation models for the robot used during the Competition can be found [here](https://github.com/husarion/husarion_ugv_ros/tree/ros2-devel/husarion_ugv_description) and for some of their extra equipment [here](https://github.com/husarion/husarion_components_description). Competitors SHOULD use simulations to prepare for the Competition.
 
