@@ -9,32 +9,32 @@ We've also decided to completely skip submissions that had zero effort/bogus dat
 
 Have in mind that this phase is only scored based on the Proposal. Other fields from the Registration Form like Team description, social profiles and so on were not scored. Maximum score for the Proposal is 50 points, and the score is a sum of scores from all categories.
 
-| Position | Team name                            | Skills | Experience | Composition | Plan | Equipment | Wildcard | Sum | Status                         |
-| -------- | ------------------------------------ | ------ | ---------- | ----------- | ---- | --------- | -------- | --- | ------------------------------ |
-| 1        | Sapienza Technology Team             | 9      | 4          | 5           | 15   | 5         | 3        | 41  | Qualified to Connectivity Test |
-| 2        | SHUNYA                               | 10     | 1          | 5           | 15   | 3         | 5        | 39  | Qualified to Connectivity Test |
-| 3        | IITB Mars Rover Team                 | 10     | 3          | 2           | 15   | 5         | 3        | 38  | Qualified to Connectivity Test |
-| 4        | CRISS Robotics                       | 10     | 5          | 5           | 10   | 5         | 2        | 37  | Qualified to Connectivity Test |
-| 5        | Inferno DTU                          | 10     | 3          | 4           | 13   | 4         | 3        | 37  | Qualified to Connectivity Test |
-| 6        | Makercie                             | 10     | 2          | 5           | 10   | 3         | 3        | 33  | Qualified to Connectivity Test |
-| 7        | Mind Cloud                           | 10     | 3          | 1           | 10   | 5         | 3        | 32  | Qualified to Connectivity Test |
-| 8        | PSG Team Aurora                      | 8      | 5          | 4           | 11   | 4         | 0        | 32  | Qualified to Connectivity Test |
-| 9        | TerraBots                            | 10     | 2          | 4           | 14   | 0         | 2        | 32  | Qualified to Connectivity Test |
-| 10       | CSA ROBOTICS                         | 10     | 1          | 5           | 7    | 5         | 3        | 31  | Qualified to Connectivity Test |
-| 11       | DJS Antariksh                        | 10     | 3          | 1           | 8    | 5         | 4        | 31  | Qualified to Connectivity Test |
-| 12       | NSpace                               | 10     | 5          | 4           | 8    | 3         | 1        | 31  | Qualified to Connectivity Test |
-| 13       | Robocon IITR                         | 9      | 4          | 5           | 10   | 2         | 1        | 31  | Qualified to Connectivity Test |
-| 14       | ARES                                 | 10     | 1          | 5           | 5    | 5         | 3        | 29  | Qualified to Connectivity Test |
-| 15       | Amogh                                | 10     | 3          | 5           | 4    | 5         | 1        | 28  | Qualified to Connectivity Test |
-| 16       | Interplanetar - BUET Mars Rover Team | 8      | 4          | 3           | 6    | 2         | 2        | 25  | Qualified to Connectivity Test |
-| 17       | Horizon                              | 6      | 4          | 2           | 9    | 0         | 2        | 23  | Qualified to Connectivity Test |
-| 18       | PUTLunarTeam                         | 10     | 2          | 4           | 3    | 2         | 2        | 23  | Qualified to Connectivity Test |
-| 19       | ProjectRed                           | 2      | 4          | 5           | 3    | 3         | 3        | 20  | Qualified to Connectivity Test |
-| 20       | RIVAL                                | 1      | 1          | 3           | 13   | 0         | 1        | 19  | Qualified to Connectivity Test |
-| 21       | BanglaBot Xplorer                    | 5      | 2          | 1           | 1    | 0         | 1        | 10  | Reserve List                   |
-| 22       | ELTE StudentTechLab                  | 3      | 1          | 1           | 3    | 0         | 1        | 9   | Reserve List                   |
-| 23       | BLAZERS                              | 3      | 0          | 0           | 0    | 0         | 2        | 5   | Reserve List                   |
-| 24       | light pheniox                        | 1      | 2          | 1           | 0    | 0         | 0        | 4   | Reserve List                   |
+| Position | Team name                                 | Skills | Experience | Composition | Plan | Equipment | Wildcard | Sum | Status                         |
+| -------- | ----------------------------------------- | ------ | ---------- | ----------- | ---- | --------- | -------- | --- | ------------------------------ |
+| 1        | Sapienza Technology Team                  | 9      | 4          | 5           | 15   | 5         | 3        | 41  | Qualified to Connectivity Test |
+| 2        | SHUNYA                                    | 10     | 1          | 5           | 15   | 3         | 5        | 39  | Qualified to Connectivity Test |
+| 3        | IITB Mars Rover Team                      | 10     | 3          | 2           | 15   | 5         | 3        | 38  | Qualified to Connectivity Test |
+| 4        | CRISS Robotics                            | 10     | 5          | 5           | 10   | 5         | 2        | 37  | Qualified to Connectivity Test |
+| 5        | Team Inferno DTU                          | 10     | 3          | 4           | 13   | 4         | 3        | 37  | Qualified to Connectivity Test |
+| 6        | Makercie                                  | 10     | 2          | 5           | 10   | 3         | 3        | 33  | Qualified to Connectivity Test |
+| 7        | Mind Cloud                                | 10     | 3          | 1           | 10   | 5         | 3        | 32  | Qualified to Connectivity Test |
+| 8        | PSG Team Aurora                           | 8      | 5          | 4           | 11   | 4         | 0        | 32  | Qualified to Connectivity Test |
+| 9        | TerraBots                                 | 10     | 2          | 4           | 14   | 0         | 2        | 32  | Qualified to Connectivity Test |
+| 10       | CSA ROBOTICS                              | 10     | 1          | 5           | 7    | 5         | 3        | 31  | Qualified to Connectivity Test |
+| 11       | DJS Antariksh                             | 10     | 3          | 1           | 8    | 5         | 4        | 31  | Qualified to Connectivity Test |
+| 12       | NSpace                                    | 10     | 5          | 4           | 8    | 3         | 1        | 31  | Qualified to Connectivity Test |
+| 13       | Team Robocon IITR                         | 9      | 4          | 5           | 10   | 2         | 1        | 31  | Qualified to Connectivity Test |
+| 14       | ARES                                      | 10     | 1          | 5           | 5    | 5         | 3        | 29  | Qualified to Connectivity Test |
+| 15       | Amogh                                     | 10     | 3          | 5           | 4    | 5         | 1        | 28  | Qualified to Connectivity Test |
+| 16       | Team Interplanetar - BUET Mars Rover Team | 8      | 4          | 3           | 6    | 2         | 2        | 25  | Qualified to Connectivity Test |
+| 17       | Team Horizon                              | 6      | 4          | 2           | 9    | 0         | 2        | 23  | Qualified to Connectivity Test |
+| 18       | PUTLunarTeam                              | 10     | 2          | 4           | 3    | 2         | 2        | 23  | Qualified to Connectivity Test |
+| 19       | ProjectRed                                | 2      | 4          | 5           | 3    | 3         | 3        | 20  | Qualified to Connectivity Test |
+| 20       | RIVAL                                     | 1      | 1          | 3           | 13   | 0         | 1        | 19  | Qualified to Connectivity Test |
+| 21       | BanglaBot Xplorer                         | 5      | 2          | 1           | 1    | 0         | 1        | 10  | Reserve List                   |
+| 22       | ELTE StudentTechLab                       | 3      | 1          | 1           | 3    | 0         | 1        | 9   | Reserve List                   |
+| 23       | BLAZERS                                   | 3      | 0          | 0           | 0    | 0         | 2        | 5   | Reserve List                   |
+| 24       | light pheniox                             | 1      | 2          | 1           | 0    | 0         | 0        | 4   | Reserve List                   |
 
 ## Per category comments
 
