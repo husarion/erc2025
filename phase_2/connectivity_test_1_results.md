@@ -22,4 +22,3 @@
 | Makercie                                  | 20                      |         |
 | Sapienza Technology Team                  | 20                      |         |
 | TerraBots                                 | 20                      |         |
-s
