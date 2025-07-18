@@ -4,6 +4,7 @@
   <Domain Id="any">
     <General>
       <Interfaces>
+        <!-- This is the network interface to the robot, active only during your trial time -->
         <NetworkInterface name="eth1" />
       </Interfaces>
       <AllowMulticast>false</AllowMulticast>
@@ -11,7 +12,9 @@
     </General>
     <Discovery>
       <Peers>
+        <!-- Panther Built-in computer -->
         <Peer Address="10.15.20.2" />
+        <!-- Panther NUC computer -->
         <Peer Address="10.15.20.3" />
       </Peers>
     </Discovery>

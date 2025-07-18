@@ -66,4 +66,5 @@
       - /usr/bin/apt
       - /usr/bin/apt-get
       - /usr/bin/rosdep
+      - /sbin/reboot
   no_log: false
