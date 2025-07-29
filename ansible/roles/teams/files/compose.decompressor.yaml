@@ -1,0 +1,55 @@
+x-video-common:
+  &video-common
+  image: husarion/usb-camera:jazzy-erc
+  network_mode: host
+  restart: unless-stopped
+  volumes:
+    - ./cyclonedds.xml:/cyclonedds.xml
+  environment:
+    - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    - CYCLONEDDS_URI=file:///cyclonedds.xml
+
+services:  
+  decompressor_right:
+    <<: *video-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_right/ffmpeg
+        --remap out:=/panther/camera_right/image_raw
+
+  decompressor_back:
+    <<: *video-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_back/ffmpeg
+        --remap out:=/panther/camera_back/image_raw 
+
+  decompressor_left:
+    <<: *video-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_left/ffmpeg
+        --remap out:=/panther/camera_left/image_raw
+
+  decompressor_front:
+    <<: *video-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_front/ffmpeg
+        --remap out:=/panther/camera_front/image_raw

@@ -78,6 +78,22 @@
     group: "{{ team_user }}"
     mode: '0644'
 
+- name: Check if compose.decompressor.yaml exists
+  ansible.builtin.stat:
+    path: /home/{{ team_user }}/compose.decompressor.yaml
+  register: compose_decompressor_yaml
+  tags: decompressor
+
+- name: Create compose.decompressor.yaml
+  when: not compose_decompressor_yaml.stat.exists
+  ansible.builtin.copy:
+    src: files/compose.decompressor.yaml
+    dest: /home/{{ team_user }}/compose.decompressor.yaml
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0644'
+  tags: decompressor
+
 - name: Source ROS in .bashrc
   ansible.builtin.lineinfile:
     dest: /home/{{ team_user }}/.bashrc

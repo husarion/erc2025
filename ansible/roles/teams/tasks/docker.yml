@@ -12,7 +12,7 @@
 
 - name: Add Docker permissions to Teams user
   ansible.builtin.user:
-    name: "{{ teams_user }}"
+    name: "{{ team_user }}"
     groups: docker
     append: true
   tags: users

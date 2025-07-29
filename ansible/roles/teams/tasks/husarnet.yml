@@ -12,13 +12,14 @@
     state: present
   tags: apt
 
-- name: Add Husarnet Nightly APT repository
+- name: Remove Husarnet non-Nightly APT repository
   ansible.builtin.apt_repository:
     repo: "{{ item }}"
     filename: husarnet
     state: absent
   with_items:
     - deb [signed-by=/usr/share/keyrings/husarnet.gpg] https://install.husarnet.com/deb/ all husarnet
+    - deb [signed-by=/usr/share/keyrings/husarnet.gpg] https://nightly.husarnet.com/deb/ all husarnet
     - deb [signed-by=/usr/share/keyrings/husarnet.gpg] https://install.husarnet.com/deb all husarnet
     - deb https://install.husarnet.com/deb/ all husarnet
     - deb https://nightly.husarnet.com/deb all husarnet
@@ -33,6 +34,7 @@
       - husarnet
     state: latest
   tags: packages
+  when: ansible_host != "10.30.68.2"
 
 - name: Start and enable Husarnet in systemd
   ansible.builtin.systemd:

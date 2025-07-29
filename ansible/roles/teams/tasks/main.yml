@@ -18,10 +18,12 @@
 - name: Configure users accounts
   ansible.builtin.import_tasks: users.yml
   tags: users
+  when: ansible_host != "10.20.30.40"
 
 - name: Configure network
   ansible.builtin.import_tasks: network.yml
   tags: network
+  when: ansible_host != "10.20.30.40"
 
 - name: Finally, configure docker to run workloads
   ansible.builtin.import_tasks: docker.yml
