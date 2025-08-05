@@ -29,3 +29,6 @@
   ansible.builtin.systemd:
     name: husarnet
     state: restarted
+
+- name: Apply sysctl
+  command: sysctl --system

@@ -46,3 +46,13 @@
     touch /resized
   when: not fs_resized_flag.stat.exists
   tags: resize
+
+- name: Copy sysctl config
+  copy:
+    src: files/husarion_sysctl.conf
+    dest: /etc/sysctl.d/99-husarion-sysctl.conf
+    owner: root
+    group: root
+    mode: '0644'
+  tags: sysctl
+  notify: Apply sysctl
