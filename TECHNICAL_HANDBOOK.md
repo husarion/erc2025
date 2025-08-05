@@ -205,6 +205,9 @@ Some parts of the Marsyard will be **unreachable to the robot** (especially auto
 <!--![Panther base photo](assets/panther_base_photo_1.jpg)-->
 ![Panther base](assets/panther_base_render_1.png)
 ![Panther technical drawing](assets/panther_base_drawing_1.png)
+![Panther full setup drawing](assets/panther_drawing_2.png)
+
+You'll also find 3D data of the robot in `models` directory of this repository.
 
 > [!NOTE]
 > Have in mind that the images above are showing only the base of the used robot. Additional equipment will be mounted on op of it during the Competition. Those pictures may later be updated to show the actual configurations used during the Competition.
