@@ -1,0 +1,11 @@
+services:
+  ros2router:
+    image: husarnet/ros2router:1.10.4
+    network_mode: host
+    ipc: host
+    volumes:
+      - ./filter_example.yaml:/filter.yaml # topic allow/deny list
+    environment:
+      - PARTICIPANTS=husarnet,if-eth1
+      - ROS_DISCOVERY_SERVER=;;;husarnet-local
+      - USER

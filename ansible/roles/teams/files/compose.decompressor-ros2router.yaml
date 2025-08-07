@@ -1,0 +1,54 @@
+x-decompressor-common: &decompressor-common
+  image: husarion/usb-camera:jazzy-erc
+  network_mode: host
+  ipc: host
+  volumes:
+    - ./superclient.xml:/superclient.xml
+  environment:
+    - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    - FASTRTPS_DEFAULT_PROFILES_FILE=/superclient.xml
+
+services:
+  decompressor_right:
+    <<: *decompressor-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_right/ffmpeg
+        --remap out:=/panther/camera_right/image_raw
+
+  decompressor_back:
+    <<: *decompressor-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_back/ffmpeg
+        --remap out:=/panther/camera_back/image_raw
+
+  decompressor_left:
+    <<: *decompressor-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_left/ffmpeg
+        --remap out:=/panther/camera_left/image_raw
+
+  decompressor_front:
+    <<: *decompressor-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_front/ffmpeg
+        --remap out:=/panther/camera_front/image_raw

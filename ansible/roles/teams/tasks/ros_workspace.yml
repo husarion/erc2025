@@ -94,6 +94,22 @@
     mode: '0644'
   tags: decompressor
 
+- name: Check if compose.decompressor-ros2router.yaml exists
+  ansible.builtin.stat:
+    path: /home/{{ team_user }}/compose.decompressor-ros2router.yaml
+  register: compose_decompressor_ros2router_yaml
+  tags: decompressor
+
+- name: Create compose.decompressor-ros2router.yaml
+  when: not compose_decompressor_ros2router_yaml.stat.exists
+  ansible.builtin.copy:
+    src: files/compose.decompressor-ros2router.yaml
+    dest: /home/{{ team_user }}/compose.decompressor-ros2router.yaml
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0644'
+  tags: decompressor
+
 - name: Source ROS in .bashrc
   ansible.builtin.lineinfile:
     dest: /home/{{ team_user }}/.bashrc
@@ -113,3 +129,20 @@
     mode: '0600'
     state: touch
   when: not ros_envs_marker.stat.exists
+
+- name: Check if ~/ros2router already exists
+  ansible.builtin.stat:
+    path: /home/{{ team_user }}/ros2router
+  register: ros2router_dir
+  tags: ros2router
+
+- name: Copy all files from ros2router to team's home directory
+  ansible.builtin.copy:
+    src: files/ros2router/
+    dest: /home/{{ team_user }}/ros2router/
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0644'
+    directory_mode: '0755'
+  when: not ros2router_dir.stat.exists
+  tags: ros2router
