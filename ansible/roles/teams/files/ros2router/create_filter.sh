@@ -16,6 +16,10 @@ echo "  - name: \"rt/chatter\""
 echo "    qos:"
 echo "      reliability: true"
 echo "      durability: true"
+echo "  - name: \"rt/panther/camera_*/ffmpeg\""
+echo "    qos:"
+echo "      reliability: true"
+echo "      durability: false"
 echo "builtin-topics:"
 
 # Loop over each topic provided as argument

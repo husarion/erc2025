@@ -1,0 +1,23 @@
+services:
+  point_cloud_decompressor:
+    build:
+      context: .
+      dockerfile: Dockerfile.lidar-decompressor
+    network_mode: host
+    restart: unless-stopped
+
+    # If cyclone used
+    volumes:
+      - ./cyclonedds.xml:/cyclonedds.xml
+    environment:
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - CYCLONEDDS_URI=file:///cyclonedds.xml
+
+    # If fast used (ros2router)
+    # volumes:
+    #   - ./superclient.xml:/superclient.xml
+    # environment:
+    #   - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    #   - FASTRTPS_DEFAULT_PROFILES_FILE=/superclient.xml
+
+    command: ros2 run point_cloud_transport republish --ros-args -p in_transport:=zstd -p out_transport:=raw -r in/zstd:=cx/lslidar_point_cloud/zstd -r out:=cx/lslidar_point_cloud/decompressed -r __ns:=/panther

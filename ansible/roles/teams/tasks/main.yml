@@ -18,7 +18,7 @@
 - name: Configure users accounts
   ansible.builtin.import_tasks: users.yml
   tags: users
-  when: ansible_host != "10.20.30.40"
+  when: ansible_host != "10.20.30.40" and ansible_host != "10.30.41.2"
 
 - name: Configure network
   ansible.builtin.import_tasks: network.yml

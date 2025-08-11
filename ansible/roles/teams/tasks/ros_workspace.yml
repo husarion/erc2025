@@ -55,6 +55,7 @@
     HUSARION_ROS_BUILD_TYPE: simulation
   become: yes
   become_user: "{{ team_user }}"
+  when: ansible_host != "10.30.41.2"
 
 - name: Test for .ros_envs_marker
   ansible.builtin.stat:
@@ -94,6 +95,15 @@
     mode: '0644'
   tags: decompressor
 
+- name: Create compose.decompressor.yaml.reference
+  ansible.builtin.copy:
+    src: files/compose.decompressor.yaml
+    dest: /home/{{ team_user }}/compose.decompressor.yaml.reference
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0644'
+  tags: decompressor
+
 - name: Check if compose.decompressor-ros2router.yaml exists
   ansible.builtin.stat:
     path: /home/{{ team_user }}/compose.decompressor-ros2router.yaml
@@ -110,6 +120,15 @@
     mode: '0644'
   tags: decompressor
 
+- name: Create compose.decompressor-ros2router.yaml.reference
+  ansible.builtin.copy:
+    src: files/compose.decompressor-ros2router.yaml
+    dest: /home/{{ team_user }}/compose.decompressor-ros2router.yaml.reference
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0644'
+  tags: decompressor
+
 - name: Source ROS in .bashrc
   ansible.builtin.lineinfile:
     dest: /home/{{ team_user }}/.bashrc
@@ -121,7 +140,7 @@
     - { line: "source {{ ros_ws }}/install/setup.bash" }
     - { line: "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" }
     - { line: "export CYCLONEDDS_URI=file:///home/{{ team_user }}/cyclonedds.xml" }
-  when: not ros_envs_marker.stat.exists
+  when: not ros_envs_marker.stat.exists and ansible_host != "10.20.30.40"
 
 - name: Create .ros_envs_marker
   ansible.builtin.file:
@@ -146,3 +165,44 @@
     directory_mode: '0755'
   when: not ros2router_dir.stat.exists
   tags: ros2router
+
+- name: Copy all files from ros2router to team's home directory (reference)
+  ansible.builtin.copy:
+    src: files/ros2router/
+    dest: /home/{{ team_user }}/ros2router.reference/
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0644'
+    directory_mode: '0755'
+  tags: ros2router
+
+- name: Check if lidar-decompressor exists
+  ansible.builtin.stat:
+    path: /home/{{ team_user }}/compose.lidar-decompressor.yaml
+  register: lidar_decompressor_file
+  tags: lidar_decompressor
+
+- name: Copy lidar-decompressor to team's home directory
+  ansible.builtin.copy:
+    src: files/{{ item }}
+    dest: /home/{{ team_user }}/{{ item }}
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0755'
+  when: not lidar_decompressor_file.stat.exists
+  with_items:
+    - compose.lidar-decompressor.yaml
+    - Dockerfile.lidar-decompressor
+  tags: lidar_decompressor
+
+- name: Copy lidar-decompressor.reference to team's home directory
+  ansible.builtin.copy:
+    src: files/{{ item }}
+    dest: /home/{{ team_user }}/{{ item }}.reference
+    owner: "{{ team_user }}"
+    group: "{{ team_user }}"
+    mode: '0755'
+  with_items:
+    - compose.lidar-decompressor.yaml
+    - Dockerfile.lidar-decompressor
+  tags: lidar_decompressor

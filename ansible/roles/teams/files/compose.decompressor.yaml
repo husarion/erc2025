@@ -1,15 +1,24 @@
-x-video-common:
-  &video-common
+x-video-common: &video-common
   image: husarion/usb-camera:jazzy-erc
   network_mode: host
   restart: unless-stopped
+  ipc: host
+
+  # If cyclone used
   volumes:
     - ./cyclonedds.xml:/cyclonedds.xml
   environment:
     - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
     - CYCLONEDDS_URI=file:///cyclonedds.xml
 
-services:  
+  # If fast used (ros2router)
+  # volumes:
+  #   - ./superclient.xml:/superclient.xml
+  # environment:
+  #   - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+  #   - FASTRTPS_DEFAULT_PROFILES_FILE=/superclient.xml
+
+services:
   decompressor_right:
     <<: *video-common
     command: >
@@ -30,7 +39,7 @@ services:
         -p out_transport:=raw
         -p "in.ffmpeg.map.h264:=h264"
         --remap in/ffmpeg:=/panther/camera_back/ffmpeg
-        --remap out:=/panther/camera_back/image_raw 
+        --remap out:=/panther/camera_back/image_raw
 
   decompressor_left:
     <<: *video-common
@@ -53,3 +62,14 @@ services:
         -p "in.ffmpeg.map.h264:=h264"
         --remap in/ffmpeg:=/panther/camera_front/ffmpeg
         --remap out:=/panther/camera_front/image_raw
+
+  decompressor_main:
+    <<: *video-common
+    command: >
+      ros2 run image_transport republish
+        --ros-args
+        -p in_transport:=ffmpeg
+        -p out_transport:=raw
+        -p "in.ffmpeg.map.h264:=h264"
+        --remap in/ffmpeg:=/panther/camera_main/ffmpeg
+        --remap out:=/panther/camera_main/image_raw

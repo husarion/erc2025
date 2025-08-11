@@ -2,6 +2,10 @@ allowlist:
   - name: "rt/*"
 blocklist: []
 topics:
+  - name: "rt/chatter"
+    qos:
+      reliability: true
+      durability: true
   - name: "rt/panther/camera_*/ffmpeg"
     qos:
       reliability: true
@@ -23,6 +27,10 @@ builtin-topics:
     type: "sensor_msgs::msg::dds_::CameraInfo_"
   - name: "rt/panther/camera_left/ffmpeg"
     type: "ffmpeg_image_transport_msgs::msg::dds_::FFMPEGPacket_"
+  - name: "rt/panther/camera_main/camera_info"
+    type: "sensor_msgs::msg::dds_::CameraInfo_"
+  - name: "rt/panther/camera_main/ffmpeg"
+    type: "ffmpeg_image_transport_msgs::msg::dds_::FFMPEGPacket_"
   - name: "rt/panther/camera_right/camera_info"
     type: "sensor_msgs::msg::dds_::CameraInfo_"
   - name: "rt/panther/camera_right/ffmpeg"
@@ -41,6 +49,8 @@ builtin-topics:
     type: "lifecycle_msgs::msg::dds_::TransitionEvent_"
   - name: "rt/panther/cx/lslidar_point_cloud"
     type: "sensor_msgs::msg::dds_::PointCloud2_"
+  - name: "rt/panther/cx/lslidar_point_cloud/zstd"
+    type: "point_cloud_interfaces::msg::dds_::CompressedPointCloud2_"
   - name: "rt/panther/cx/scan"
     type: "sensor_msgs::msg::dds_::LaserScan_"
   - name: "rt/panther/diagnostics"
