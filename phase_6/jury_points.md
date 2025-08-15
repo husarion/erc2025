@@ -26,3 +26,32 @@ This table is meant to be a log of any Jury awarded points to the Teams. Max poi
 | PUTLunarTeam                              | 3           | 3 June 2025 | Good preparation and timing during the Connectivity Test                                                                   |                                                                             |
 | ARES                                      | 5           | 3 June 2025 | Excellent preparation and timing during the Connectivity Test                                                              |                                                                             |
 | NSpace                                    | 5           | 3 June 2025 | Excellent preparation and timing during the Connectivity Test                                                              |                                                                             |
+
+## Summary
+
+| Team name                                 | Sum |
+| ----------------------------------------- | --- |
+| Sapienza Technology Team                  | 4   |
+| SHUNYA                                    | 7   |
+| IITB Mars Rover Team                      | 5   |
+| CRISS Robotics                            | 15  |
+| Team Inferno DTU                          | 2   |
+| Makercie                                  | 3   |
+| Mind Cloud                                | 0   |
+| PSG Team Aurora                           | 8   |
+| TerraBots                                 | 10  |
+| CSA ROBOTICS                              | 0   |
+| DJS Antariksh                             | 5   |
+| NSpace                                    | 5   |
+| Team Robocon IITR                         | 3   |
+| ARES                                      | 5   |
+| Amogh                                     | 2   |
+| Team Interplanetar - BUET Mars Rover Team | 5   |
+| Team Horizon                              | 2   |
+| PUTLunarTeam                              | 3   |
+| ProjectRed                                | 5   |
+| RIVAL                                     | 5   |
+| BanglaBot Xplorer                         | 0   |
+| ELTE StudentTechLab                       | 0   |
+| BLAZERS                                   | 0   |
+| light pheniox                             | 0   |

@@ -95,14 +95,14 @@ Technical Handbook is a document that describes the technical details of the Com
 - 2025.04.14 - Qualification results are published
 - 2025.06.03 - Connectivity Test
 - 2025.07.15 - ROS Test
+- 2025.07.29 - Payload Test
+- 2025.08.12 - Challenge Test
 
 ### Upcoming
 
 > [!NOTE]
 > Upcoming dates are still subject to change. They're published here as a ballpark estimate.
 
-- 2025.07.29 - Payload Test
-- 2025.08.12 - Challenge Test
 - 2025.08.26 - Finals
 - 2025.08.28 - Competition Report
 - 2025.08.31 - Results are published, Award Ceremony
