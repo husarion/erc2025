@@ -20,6 +20,15 @@ echo "  - name: \"rt/panther/camera_*/ffmpeg\""
 echo "    qos:"
 echo "      reliability: true"
 echo "      durability: false"
+echo "  - name: \"rt/tf_static\""
+echo "    qos:"
+echo "      reliability: true"
+echo "      durability: true"
+echo "      history-depth: 10"
+echo "  - name: \"rt/panther/cmd_vel\""
+echo "    qos:"
+echo "      reliability: true"
+echo "      durability: false"
 echo "builtin-topics:"
 
 # Loop over each topic provided as argument
@@ -47,4 +56,3 @@ for TOPIC in "$@"; do
     echo "  - name: \"rt$TOPIC\""
     echo "    type: \"$DDS_TYPE\""
 done
-

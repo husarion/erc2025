@@ -10,7 +10,20 @@ topics:
     qos:
       reliability: true
       durability: false
+  - name: "rt/tf_static"
+    qos:
+      reliability: true
+      durability: true
+      history-depth: 10
+  - name: "rt/panther/cmd_vel"
+    qos:
+      reliability: true
+      durability: false
 builtin-topics:
+  - name: "rt/fix"
+    type: "sensor_msgs::msg::dds_::NavSatFix_"
+  - name: "rt/heading"
+    type: "geometry_msgs::msg::dds_::QuaternionStamped_"
   - name: "rt/panther/battery/battery_status"
     type: "sensor_msgs::msg::dds_::BatteryState_"
   - name: "rt/panther/battery/charging_status"
@@ -93,3 +106,7 @@ builtin-topics:
     type: "tf2_msgs::msg::dds_::TFMessage_"
   - name: "rt/tf_static"
     type: "tf2_msgs::msg::dds_::TFMessage_"
+  - name: "rt/time_reference"
+    type: "sensor_msgs::msg::dds_::TimeReference_"
+  - name: "rt/vel"
+    type: "geometry_msgs::msg::dds_::TwistStamped_"

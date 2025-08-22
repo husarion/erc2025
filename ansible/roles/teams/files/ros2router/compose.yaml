@@ -9,3 +9,11 @@ services:
       - PARTICIPANTS=husarnet,if-eth1
       - ROS_DISCOVERY_SERVER=;;;husarnet-local
       - USER
+      - |
+        CONFIG_BASE=
+          version: v5.0
+          specs:
+            discovery-trigger: reader
+            remove-unused-entities: true
+            threads: 50
+          participants: []
